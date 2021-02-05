@@ -1,0 +1,2 @@
+# throws syntax error rather than div by 0 error
+print b/0;
