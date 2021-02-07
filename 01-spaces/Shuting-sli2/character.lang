@@ -1,2 +1,0 @@
-print b      ;
-# should fail when parsing character
