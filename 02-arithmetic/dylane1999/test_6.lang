@@ -1,2 +1,2 @@
-print 3+4 \n #comment;
+print 3+4 #comment;
 #check for all 3 space types after print
