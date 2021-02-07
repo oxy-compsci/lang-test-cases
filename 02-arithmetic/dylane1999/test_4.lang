@@ -1,2 +1,2 @@
 print 3++
-# 3 with two +'s to see if the program will print a 3
+# 3 with two +'s to test for syntax error
