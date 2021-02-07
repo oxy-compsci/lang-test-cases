@@ -1,2 +1,2 @@
-print 3-;
-#check if the interperter will print a 3 with a missing integer after the -
+print 3+4 \n #comment;
+#check for all 3 space types after print
