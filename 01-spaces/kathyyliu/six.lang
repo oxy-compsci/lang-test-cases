@@ -1,2 +1,1 @@
-# throws syntax error rather than div by 0 error
-print b/0;
+print 3*4 * 5*0;
