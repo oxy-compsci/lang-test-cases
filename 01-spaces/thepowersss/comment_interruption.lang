@@ -1,0 +1,4 @@
+print (2 #interruption + 3) ;
+
+# i read somewhere that comments should be parsed as a space, so this
+# should just print 5, right?

@@ -1,0 +1,3 @@
+print (0) *3 ;
+# 0 in parenthesis, what will he do
+# should print 0 btw
