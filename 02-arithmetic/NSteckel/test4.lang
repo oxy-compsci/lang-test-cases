@@ -1,0 +1,2 @@
+# check subtraction with larger numbers to yield a negative
+print 42-100-6;
