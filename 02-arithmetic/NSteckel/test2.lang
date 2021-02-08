@@ -1,0 +1,2 @@
+# check addition with multiple zeroes and multiple positives
+print 4+22+0+1+0+0+6;
