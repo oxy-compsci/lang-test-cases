@@ -1,0 +1,19 @@
+// checking to make sure addition/subtraction work from left to right
+print 2 + 5 - 1;
+// checking to make sure multiplication/division work from left to right
+print 8 / 2 * 6;
+// check to make sure multiplication/division are calculated before addition/subtraction
+print 12 - 3 * 2;
+print 9 + 3 * 4 / 2;
+// check to make sure that parenthesis are calculated first
+print 9 * (2 + 2);
+// check to see if extra sign doesnt parse
+print 3+3+;
+// check to see if nothing will fail
+print ( );
+//check to see that letters will fail
+print abc;
+// check to see that 0 + 0 = 0
+print 0 + 0;
+print (1 + 2) * (3 + 0);
+print 2+2+2-2-2-2*2*2*2/2/2/2;

@@ -1,0 +1,15 @@
+// checking that you can have more than one space before the expression
+print    3;
+// checking that you can have a space after the expression
+print 2 ;
+// checking that a space in between addition
+print 2 + 2;
+// checking that you can have space after expression with addition
+print 2+3 ;
+// Making sure there is a space after print
+print2;
+print 3+4      ;
+print   2     + 6;
+print 9 +   8   ;
+print 10     ;
+print       12 + 1 ;
