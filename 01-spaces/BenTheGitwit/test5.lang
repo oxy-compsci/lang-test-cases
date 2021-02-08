@@ -1,2 +1,2 @@
-# Tests to make sure the parser allows maximum one space
+# Tests to make sure the parser allows multiple spaces
 print 1 + 2  + 3;
