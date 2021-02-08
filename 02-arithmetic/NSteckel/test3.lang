@@ -1,0 +1,2 @@
+# test subtracting 0
+print 50-0;
