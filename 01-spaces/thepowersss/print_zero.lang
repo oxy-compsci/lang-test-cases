@@ -1,0 +1,2 @@
+print (00);
+# should print 0, since there's no such thing as printing "nothing"

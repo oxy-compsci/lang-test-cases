@@ -1,3 +1,0 @@
-print ();
-# there should be no output here
-# make sure printing nothing doesn't bork anything
