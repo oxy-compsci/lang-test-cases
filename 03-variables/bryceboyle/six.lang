@@ -1,2 +1,2 @@
-var num* = 3;
-print num*;
+var num = "hello";
+print num;

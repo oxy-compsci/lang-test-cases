@@ -1,0 +1,1 @@
+(sequence (declare time 60) (print time) (assign (varloc time) 59) (print time))

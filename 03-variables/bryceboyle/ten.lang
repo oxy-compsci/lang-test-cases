@@ -1,1 +1,3 @@
-var initial speed = 77;
+var speed = 65;
+var speed = 25;
+print speed;
