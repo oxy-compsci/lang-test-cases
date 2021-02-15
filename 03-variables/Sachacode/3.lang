@@ -1,0 +1,2 @@
+int var num = 1 + 2;
+print num;

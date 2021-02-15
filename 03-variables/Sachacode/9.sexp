@@ -1,0 +1,1 @@
+Tests if varible can be assigned in a print statement.

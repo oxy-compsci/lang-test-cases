@@ -1,0 +1,1 @@
+Test if error is thrown for an unassigned variable being used.

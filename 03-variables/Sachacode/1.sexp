@@ -1,0 +1,1 @@
+This test case assigns a number to a variable then prints it.

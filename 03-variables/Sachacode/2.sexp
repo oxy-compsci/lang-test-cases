@@ -1,0 +1,1 @@
+Test for a varible being assigned with a keyword.

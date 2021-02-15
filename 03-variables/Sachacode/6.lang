@@ -1,0 +1,2 @@
+string var str = "class";
+print str;

@@ -1,0 +1,1 @@
+Tests for variables being recognized in math expressions.

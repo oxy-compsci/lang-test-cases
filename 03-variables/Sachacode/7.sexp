@@ -1,0 +1,1 @@
+Tests for bad but acceptable spacing.

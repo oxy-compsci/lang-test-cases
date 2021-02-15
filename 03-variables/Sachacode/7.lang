@@ -1,0 +1,9 @@
+int
+var
+num
+=
+0
+;
+print
+num
+;
