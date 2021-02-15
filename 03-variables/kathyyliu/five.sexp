@@ -1,1 +1,1 @@
-(declare ifelse 0)
+(sequence (declare ifelse 0))
