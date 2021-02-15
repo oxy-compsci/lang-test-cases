@@ -1,0 +1,1 @@
+( program ( print ( identifier ( num ) ) ) ( declaration ( identifier ( num ) ) 0 ) )

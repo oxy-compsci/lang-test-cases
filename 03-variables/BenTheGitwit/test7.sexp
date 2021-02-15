@@ -1,0 +1,1 @@
+( program ( declaration ( identifier ( num ) ) ( identifier ( num ) ) ) )
