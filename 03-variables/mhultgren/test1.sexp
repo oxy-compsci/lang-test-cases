@@ -1,0 +1,1 @@
+(assign (varloc num) (+ 5 6))

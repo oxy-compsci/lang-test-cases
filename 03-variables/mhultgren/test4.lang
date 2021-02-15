@@ -1,0 +1,1 @@
+var test = num + 3; # test variable declaration using already existing variable

@@ -1,0 +1,1 @@
+(assign (varloc pemdas) (- (+ (varloc pemdas) (varloc pemdas)) (varloc num)))

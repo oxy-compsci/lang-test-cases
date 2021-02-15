@@ -1,0 +1,1 @@
+(sequence (declare test (+ (varloc num) 3)))
