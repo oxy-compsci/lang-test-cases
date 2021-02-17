@@ -1,0 +1,4 @@
+# This tests declaring before assignment
+var a;
+a = 12;
+print a;
