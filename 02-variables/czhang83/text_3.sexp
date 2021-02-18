@@ -1,1 +1,1 @@
-(print (+ 0 0))
+(sequence (print (+ 0 0)))

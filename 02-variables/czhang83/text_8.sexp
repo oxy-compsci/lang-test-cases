@@ -1,1 +1,1 @@
-(print7)
+(sequence (lookup print7))
