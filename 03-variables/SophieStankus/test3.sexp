@@ -1,1 +1,1 @@
-(sequence (declare x (* 5 (+ 3 1)))
+(sequence (declare x (* 5 (+ 3 1))))
