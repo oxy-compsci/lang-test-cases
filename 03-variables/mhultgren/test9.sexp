@@ -1,1 +1,1 @@
-(print (varloc pemdas))
+(sequence (declare num 30))

@@ -1,1 +1,1 @@
-(sequence (declare num (3)))
+(sequence (declare num 3))

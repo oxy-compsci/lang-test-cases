@@ -1,1 +1,1 @@
-(assign (varloc num) (+ 5 6))
+(sequence (declare num 3) (assign (varloc num) (+ 5 6)))

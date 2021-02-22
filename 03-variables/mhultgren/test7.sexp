@@ -1,1 +1,1 @@
-(print (varloc pemdas))
+(sequence (print (lookup pemdas)))
