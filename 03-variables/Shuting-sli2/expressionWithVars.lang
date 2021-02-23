@@ -5,4 +5,4 @@ var b = 2;
 var c = 3;
 var d = 4;
 var e = 5;
-print （a+b+c+d+e)*e；#75
+print (a+b+c+d+e)*e; #75
