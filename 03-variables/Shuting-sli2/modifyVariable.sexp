@@ -1,1 +1,1 @@
-(sequence (declare n 3) (assign (valoc n) (* (3 (/ (5 2))))) (print (* (loopup n) (loop up n))))
+(sequence (declare n 3) (assign (varloc n) (* (lookup 3)(/ (lookup 5)(lookup 2)))) (print (* (lookup n)(lookup n))))
