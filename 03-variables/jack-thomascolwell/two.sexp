@@ -1,1 +1,1 @@
-(sequence (declare a) (assign (varloc a) 12) (print (lookup a)))
+(sequence (declare a 1) (assign (varloc a) 12) (print (lookup a)))
