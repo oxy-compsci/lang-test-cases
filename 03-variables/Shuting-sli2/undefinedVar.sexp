@@ -1,1 +1,1 @@
-(sequence (declare num1 5) (print (lookup num1)))
+(sequence (assign (varloc num1) 5) (print (lookup num1)))
