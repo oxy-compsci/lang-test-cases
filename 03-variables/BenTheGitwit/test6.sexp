@@ -1,1 +1,1 @@
-( program ( print ( identifier ( num ) ) ) ( declaration ( identifier ( num ) ) 0 ) )
+( sequence ( print ( lookup num ) ) ( declare num 0 ) )

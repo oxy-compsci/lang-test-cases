@@ -1,1 +1,1 @@
-( program ( declaration ( identifier ( num ) ) ( identifier ( num ) ) ) )
+( sequence ( declare num ( lookup num ) ) )

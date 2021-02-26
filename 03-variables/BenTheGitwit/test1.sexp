@@ -1,1 +1,1 @@
-( program ( declaration ( identifier ( test ) ) ( + 2 3 ) ) ( declaration ( identifier ( test ) ) 1 ) )
+( sequence ( declare test ( + 2 3 ) ) ( declare test 1 ) )

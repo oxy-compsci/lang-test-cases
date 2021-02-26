@@ -1,1 +1,1 @@
-( program ( declaration ( identifier ( num1 ) ) 3 ) ( declaration ( identifier ( num2 ) ) 2 ) ( print ( * ( identifier ( num1 ) ) ( identifier ( num2 ) ) ) ) )
+( sequence ( declare num1 3 ) ( declare num2 2 ) ( print ( * ( lookup num1 ) ( lookup num2 ) ) ) )

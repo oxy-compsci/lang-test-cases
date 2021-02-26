@@ -1,1 +1,1 @@
-( program ( declaration ( identifier ( test ) ) ( / 2 0 ) ) ( assignment ( identifier ( test ) ) 2 ) ( print ( identifier ( test ) ) ) )
+( sequence ( declare test ( / 2 0 ) ) ( assign test 2 ) ( print ( lookup test ) ) )

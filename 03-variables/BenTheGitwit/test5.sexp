@@ -1,1 +1,1 @@
-( program ( declaration ( identifier ( num ) ) 3 ) ( assignment ( identifier ( num ) ) ( + ( identifier ( num ) ) 1 ) ) ( print ( identifier ( num ) ) ) )
+( sequence ( declare num 3 ) ( assign num ( + ( lookup num ) 1 ) ) ( print ( lookup num ) ) )
