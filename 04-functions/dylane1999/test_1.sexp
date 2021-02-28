@@ -1,0 +1,1 @@
+var x = 5; var printer = func(n){ print n+1; ret 5;}; x = printer(42); print x;
