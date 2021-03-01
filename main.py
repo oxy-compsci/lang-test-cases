@@ -1,3 +1,4 @@
+import re
 import sys
 from pathlib import Path
 
@@ -5,13 +6,91 @@ from parser import Parser # FIXME change this line to use your code if necessary
 from interpreter import Interpreter # FIXME change this line to use your code if necessary
 
 
+def normalize_sexp(string, start=0):
+
+    def fail(index):
+        if start == 0:
+            return ''
+        else:
+            return None, index
+
+    index = start
+    if index > len(string):
+        return fail(index)
+    # skip whitespace
+    while index < len(string) and string[index] in ' \n':
+        index += 1
+    # match an atom
+    if index < len(string) and string[index] != '(':
+        match = re.match('[^() \n]+', string[index:])
+        if not match:
+            return fail(index)
+        return match.group(), index + len(match.group())
+    index += 1
+    # skip whitespace
+    while index < len(string) and string[index] in ' \n':
+        index += 1
+    # match an s-expression
+    match = re.match('[^() \n]+', string[index:])
+    if not match:
+        return fail(index)
+    sexp = '(' + match.group()
+    index += len(match.group())
+    # match all children
+    while True:
+        # skip the whitespace
+        while index < len(string) and string[index] in ' \n':
+            index += 1
+        # match a child
+        child, index = normalize_sexp(string, index)
+        if child is None:
+            break
+        sexp += ' ' + child
+    # skip whitespace
+    while index < len(string) and string[index] in ' \n':
+        index += 1
+    if not string[index] == ')':
+        raise SyntaxError('malformed s-expression')
+    sexp += ')'
+    if start == 0:
+        return sexp
+    else:
+        return sexp, index + 1
+
+
 def fix_newlines(string):
     return '\n'.join(line for line in string.splitlines() if line.strip()) + '\n'
+
+
+def test_sexp(sexp_path, parse, message):
+    """Test a parse's s-expression, if one is specified.
+
+    Parameters:
+        sexp_path (Path): The path of the expected s-expression.
+        parse (Parse): The Parse object to serialize.
+        message (str): The message to output if the test fails.
+
+    Raises:
+        AssertError: If the test does not pass.
+    """
+    if not sexp_path.exists():
+        return
+    with sexp_path.open() as fd:
+        expected_sexp = normalize_sexp(fd.read())
+    # process the expected and actual output to deal with whtiespace
+    actual_sexp = normalize_sexp(str(parse))
+    error = [message,]
+    error.append('EXPECTED S-EXPRESSION (multiple whitespaces are ignored)')
+    error.append(expected_sexp)
+    error.append('ACTUAL S-EXPRESSION (multiple whitespaces are ignored)')
+    error.append(actual_sexp)
+    assert actual_sexp == expected_sexp, '\n' + '\n'.join(error)
+
 
 def test_with_file(lang_path):
     """Test using the lang program at the file path.
 
-    Arguments:
+    Parameters:
         lang_path (Path): The path of the input program.
 
     Raises:
@@ -32,10 +111,11 @@ def test_with_file(lang_path):
     else:
         # otherwise, check against the intermediate representation, if it exists
         sexp_path = lang_path.parent.joinpath(lang_path.stem + '.sexp')
-        if sexp_path.exists():
-            with sexp_path.open() as fd:
-                expected_sexp = fix_newlines(fd.read())
-            assert str(parse) == expected_sexp, 'intermediate representation does not match'
+        test_sexp(sexp_path, parse, 'intermediate representation does not match')
+        # check against the transformed intermediate representation
+        sexp2_path = lang_path.parent.joinpath(lang_path.stem + '.sexp2')
+        parse = transform(parse)
+        test_sexp(sexp2_path, parse, 'transformed intermediate representation does not match')
         # run the program to get the output
         actual_output = Interpreter().execute(parse)
     # read the expected output
