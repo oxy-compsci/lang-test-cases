@@ -1,1 +1,1 @@
-( sequence ( declare a 1 ) ( declare b 0 ) ( while ( || ( compexpression < ( lookup a ) 500 ) ( compexpression < ( lookup b ) 500 ) ) ( sequence ( print ( lookup a ) ) ( declare c ( lookup a ) ) ( assign a ( + ( lookup a ) ( lookup b ) ) ) ( assign b ( lookup c ) ) ) ) )
+( sequence ( declare a 1 ) ( declare b 0 ) ( while ( || ( compexpression < ( lookup a ) 500 ) ( compexpression < ( lookup b ) 500 ) ) ( sequence ( print ( lookup a ) ) ( declare c ( lookup a ) ) ( assign ( varloc a ) ( + ( lookup a ) ( lookup b ) ) ) ( assign ( varloc b ) ( lookup c ) ) ) ) )

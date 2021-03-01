@@ -1,1 +1,1 @@
-( sequence ( declare num 3 ) ( assign num ( + ( lookup num ) 1 ) ) ( print ( lookup num ) ) )
+( sequence ( declare num 3 ) ( assign ( varloc num ) ( + ( lookup num ) 1 ) ) ( print ( lookup num ) ) )
