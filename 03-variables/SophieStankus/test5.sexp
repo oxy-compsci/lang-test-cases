@@ -1,1 +1,1 @@
-(sequence (declare x (100)) (print (lookup x)))
+(sequence (declare x 100) (print (lookup x)))
