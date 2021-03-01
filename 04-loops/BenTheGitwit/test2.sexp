@@ -1,0 +1,1 @@
+( sequence ( declare a 3 ) ( while ( lookup a ) ( sequence ( print ( lookup a ) ) ( assign a ( - ( lookup a ) 1 ) ) ) ) )

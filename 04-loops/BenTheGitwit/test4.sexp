@@ -1,0 +1,1 @@
+( sequence ( declare a 1 ) ( declare done 0 ) ( while ( not ( lookup done ) ) ( sequence ( if ( compexpression == ( * ( / ( lookup a ) 7 ) 7 ) ( lookup a ) ) ( sequence ( print ( lookup a ) ) ( assign done 1 ) ) ) ( assign a ( + ( lookup a ) 10 ) ) ) ) )
