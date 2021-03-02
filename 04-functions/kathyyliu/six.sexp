@@ -1,0 +1,1 @@
+(sequence (declare x 1) (declare outer (function (parameters) (sequence (declare x 2) (declare inner (parameters) (sequence (print (lookup x) (assign (varloc x) 3))))))) (call (call (lookup outer) (arguments)) (arguments)) (print (lookup x)))
