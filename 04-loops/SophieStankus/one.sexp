@@ -1,1 +1,1 @@
-(sequence (declare x 10) (if (== (lookup x) 10) (sequence (assign (varloc num) (+ (lookup num) 1)))) (print (lookup num)))
+(sequence (declare x 10) (if (== (lookup x) 10) (sequence (assign (varloc x) (+ (lookup x) 1)))) (print (lookup x)))
