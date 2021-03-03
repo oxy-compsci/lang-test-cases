@@ -1,1 +1,1 @@
-var x = 5; var printer = func(n){ print n+1; ret 5;}; x = printer(42); print x;
+(sequence (declare x 5) (declare printer (function (parameters n) (sequence (print (+ (lookup n) 1)) (return 5)))) (assign (varloc x) (call (lookup printer) (arguments 42))) (print (lookup x)))

@@ -3,7 +3,7 @@ var foo = func(){
     var a = 2; 
     var inner = func(){
         print a;
-        ; 
+        }; 
     ret inner; };  
 var bar = foo(); 
 a =3; 
