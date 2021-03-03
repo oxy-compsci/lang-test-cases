@@ -1,1 +1,1 @@
-(sequence (declare time 60) (print time) (assign (varloc time) 59) (print time))
+(sequence (declare time 60) (print (lookup time)) (assign (varloc time) 59) (print (lookup time)))

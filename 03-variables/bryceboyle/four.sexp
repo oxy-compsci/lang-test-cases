@@ -1,1 +1,1 @@
-(sequence (declare else_1 1) (print else_1))
+(sequence (declare else_1 1) (print (lookup else_1)))

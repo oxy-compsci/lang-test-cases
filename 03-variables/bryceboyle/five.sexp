@@ -1,1 +1,1 @@
-(sequence (declare counter 0) (print counter))
+(sequence (declare counter 0) (print (lookup counter)))
