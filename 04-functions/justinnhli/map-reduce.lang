@@ -1,0 +1,79 @@
+var pair = func(first, second) {
+    ret func(f) {
+        ret f(first, second);
+    };
+};
+
+var NULL = pair(0, 0);
+
+var first = func(pair) {
+    ret pair(func(first, second) {
+        ret first;
+    });
+};
+
+var second = func(pair) {
+    ret pair(func(first, second) {
+        ret second;
+    });
+};
+
+var range = func(start, end) {
+    var _range = func(start, end, partial) {
+        if (start == end) {
+            ret partial;
+        } else {
+            ret _range(start, end - 1, pair(end - 1, partial));
+        }
+    };
+    ret _range(start, end, NULL);
+};
+
+var filter = func(list, fn) {
+    var _filter = func(list, fn, result) {
+        if (list == NULL) {
+            ret result;
+        } else {
+            if (fn(first(list)) == 1) {
+                ret _filter(second(list), fn, pair(first(list), result));
+            } else {
+                ret _filter(second(list), fn, result);
+            }
+        }
+    };
+    ret _filter(list, fn, NULL);
+};
+
+var reduce = func(list, fn, result) {
+    if (list == NULL) {
+        ret result;
+    } else {
+        ret reduce(second(list), fn, fn(result, first(list)));
+    }
+    
+};
+
+var mod = func(a, b) {
+    ret a - (b * (a / b));
+};
+
+var euler1 = func(n) {
+    ret reduce(
+        filter(
+            range(0, n),
+            func(n) {
+                if (mod(n, 3) == 0 || mod(n, 5) == 0) {
+                    ret 1;
+                } else {
+                    ret 0;
+                }
+            }
+        ),
+        func(a, b) {
+            ret a + b;
+        },
+        0
+    );
+};
+
+print euler1(20);
