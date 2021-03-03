@@ -7,8 +7,8 @@
                 (< (lookup a) 7)
                 (sequence
                     (assign (varloc a)
-                        (+ (lookup a) 1))
+                        (+ (lookup a) 1))))
             (assign (varloc a)
                 (+ (lookup a) 1))
             (print (lookup a))
-)))))
+)))

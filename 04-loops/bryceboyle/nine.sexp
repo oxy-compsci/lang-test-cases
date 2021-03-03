@@ -4,6 +4,6 @@
         (> (lookup w) 0)
         (sequence
             (assign (varloc w)
-                (+ (lookup w) 1))
+                (- (lookup w) 1))
             (print (lookup w))
 )))
