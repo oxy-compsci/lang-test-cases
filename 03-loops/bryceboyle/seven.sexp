@@ -3,6 +3,6 @@
     (if
         (== (lookup a) 2)
         (sequence
-            (declare b (lookup a)))
-        (print (lookup b))
-))
+            (declare b (lookup a))))
+    (print (lookup b))
+)
