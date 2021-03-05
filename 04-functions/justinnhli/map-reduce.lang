@@ -4,7 +4,7 @@ var pair = func(first, second) {
     };
 };
 
-var NULL = pair(0, 0);
+var NULL = pair(pair, pair);
 
 var first = func(pair) {
     ret pair(func(first, second) {
@@ -18,30 +18,51 @@ var second = func(pair) {
     });
 };
 
-var range = func(start, end) {
-    var _range = func(start, end, partial) {
-        if (start == end) {
+var range = func(end) {
+    var _range = func(end, partial) {
+        if (end == 0) {
             ret partial;
         } else {
-            ret _range(start, end - 1, pair(end - 1, partial));
+            ret _range(end - 1, pair(end - 1, partial));
         }
     };
-    ret _range(start, end, NULL);
+    ret _range(end, NULL);
+};
+
+var reverse = func(list) {
+    var _reverse = func(list, result) {
+        if (list == NULL) {
+            ret result;
+        } else {
+            ret _reverse(second(list), pair(first(list), result));
+        }
+    };
+    ret _reverse(list, NULL);
+};
+
+var map = func(list, fn) {
+    var _map = func(list, fn, result) {
+        if (list == NULL) {
+            ret result;
+        } else {
+            ret _map(second(list), fn, pair(fn(first(list)), result));
+        }
+    };
+    ret reverse(_map(list, fn, NULL));
 };
 
 var filter = func(list, fn) {
     var _filter = func(list, fn, result) {
         if (list == NULL) {
             ret result;
+        }
+        if (fn(first(list)) == 1) {
+            ret _filter(second(list), fn, pair(first(list), result));
         } else {
-            if (fn(first(list)) == 1) {
-                ret _filter(second(list), fn, pair(first(list), result));
-            } else {
-                ret _filter(second(list), fn, result);
-            }
+            ret _filter(second(list), fn, result);
         }
     };
-    ret _filter(list, fn, NULL);
+    ret reverse(_filter(list, fn, NULL));
 };
 
 var reduce = func(list, fn, result) {
@@ -50,23 +71,23 @@ var reduce = func(list, fn, result) {
     } else {
         ret reduce(second(list), fn, fn(result, first(list)));
     }
-    
 };
 
 var mod = func(a, b) {
     ret a - (b * (a / b));
 };
 
-var euler1 = func(n) {
+var euler_1 = func(n) {
     ret reduce(
         filter(
-            range(0, n),
-            func(n) {
-                if (mod(n, 3) == 0 || mod(n, 5) == 0) {
-                    ret 1;
-                } else {
-                    ret 0;
+            map(
+                range(n - 1),
+                func(n) {
+                    ret n + 1;
                 }
+            ),
+            func(n) {
+                ret (mod(n, 3) == 0 || mod(n, 5) == 0);
             }
         ),
         func(a, b) {
@@ -76,4 +97,6 @@ var euler1 = func(n) {
     );
 };
 
-print euler1(20);
+# solve Project Euler Problem #1 example using map-reduce
+# https://projecteuler.net/problem=1
+print euler_1(10);
