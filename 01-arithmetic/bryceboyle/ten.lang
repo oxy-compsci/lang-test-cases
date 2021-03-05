@@ -1,3 +1,3 @@
-# This should also create a syntax error because the parser isn’t able to successfully parse the entire expression.
-# Once it does “( 3 “ it expects either an operator or a closed parenthesis, not another open one.
+# This should also create a syntax error because the parser isn't able to successfully parse the entire expression.
+# Once it does "( 3 " it expects either an operator or a closed parenthesis, not another open one.
 print ( 3 ( 4 ( 5 ) ) );
