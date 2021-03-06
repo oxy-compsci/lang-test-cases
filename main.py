@@ -6,56 +6,52 @@ from parser import Parser # FIXME change this line to use your code if necessary
 from interpreter import Interpreter # FIXME change this line to use your code if necessary
 
 
-def normalize_sexp(string, start=0):
+def normalize_sexp(string):
 
     def fail(index):
-        if start == 0:
-            return ''
-        else:
-            return None, index
+        return None, index
 
-    index = start
-    if index > len(string):
-        return fail(index)
-    # skip whitespace
-    while index < len(string) and string[index] in ' \n':
-        index += 1
-    # match an atom
-    if index < len(string) and string[index] != '(':
+    def skip_whitespace(string, index):
+        while index < len(string) and string[index] in ' \n':
+            index += 1
+        return index
+
+    def _normalize_sexp(string, index):
+        if index > len(string):
+            return fail(index)
+        index = skip_whitespace(string, index)
+        sexp = ''
+        if index < len(string) and string[index] == '(':
+            index = skip_whitespace(string, index + 1)
+            sexp += '('
         match = re.match('[^() \n]+', string[index:])
         if not match:
             return fail(index)
-        return match.group(), index + len(match.group())
-    index += 1
-    # skip whitespace
-    while index < len(string) and string[index] in ' \n':
-        index += 1
-    # match an s-expression
-    match = re.match('[^() \n]+', string[index:])
-    if not match:
-        return fail(index)
-    sexp = '(' + match.group()
-    index += len(match.group())
-    # match all children
-    while True:
-        # skip the whitespace
-        while index < len(string) and string[index] in ' \n':
-            index += 1
-        # match a child
-        child, index = normalize_sexp(string, index)
-        if child is None:
-            break
-        sexp += ' ' + child
-    # skip whitespace
-    while index < len(string) and string[index] in ' \n':
-        index += 1
-    if not string[index] == ')':
-        raise SyntaxError('malformed s-expression')
-    sexp += ')'
-    if start == 0:
+        if sexp == '':
+            return match.group(), index + len(match.group())
+        sexp = '(' + match.group()
+        index += len(match.group())
+        # match all children
+        while True:
+            index = skip_whitespace(string, index)
+            # match a child
+            child, index = _normalize_sexp(string, index)
+            if child is None:
+                break
+            sexp += ' ' + child
+        index = skip_whitespace(string, index)
+        if not string[index] == ')':
+            raise SyntaxError('malformed S-expression')
+        sexp += ')'
+        index = skip_whitespace(string, index + 1)
+        return sexp, index
+
+    sexp, index = _normalize_sexp(string, 0)
+    if index == len(string):
         return sexp
     else:
-        return sexp, index + 1
+        raise SyntaxError('malformed S-expression')
+
 
 
 def fix_newlines(string):
@@ -63,10 +59,10 @@ def fix_newlines(string):
 
 
 def test_sexp(sexp_path, parse, message):
-    """Test a parse's s-expression, if one is specified.
+    """Test a parse's S-expression, if one is specified.
 
     Parameters:
-        sexp_path (Path): The path of the expected s-expression.
+        sexp_path (Path): The path of the expected S-expression.
         parse (Parse): The Parse object to serialize.
         message (str): The message to output if the test fails.
 
@@ -109,7 +105,7 @@ def test_with_file(lang_path):
         # if there's a syntax error, that's our only output
         actual_output = 'syntax error'
     else:
-        # otherwise, check against the intermediate representation, if it exists
+        # otherwise, check against the intermediate representation
         sexp_path = lang_path.parent.joinpath(lang_path.stem + '.sexp')
         test_sexp(sexp_path, parse, 'intermediate representation does not match')
         # run the program to get the output
