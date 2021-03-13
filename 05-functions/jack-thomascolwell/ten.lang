@@ -1,0 +1,3 @@
+# Tests that returning outside of a function throws an error
+return 10;
+print 2;
