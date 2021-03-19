@@ -1,1 +1,2 @@
-int var print = 0;
+# test for a varible being assigned with in invalid keyword
+var print = 0;

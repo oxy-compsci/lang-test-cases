@@ -1,1 +1,3 @@
-Tests if varible can be assigned in a print statement.
+(sequence
+    (declare num )
+)

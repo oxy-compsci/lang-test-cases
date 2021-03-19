@@ -1,1 +1,5 @@
-Test for if the int is cast into the string.
+(sequence
+    (declare a 0)
+    (declare b (lookup a)
+    (print (lookup b))
+)

@@ -1,1 +1,3 @@
-Tests for if a keyword is wrongly found in a string.
+(sequence
+    (assign num )
+)

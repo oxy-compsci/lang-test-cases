@@ -1,1 +1,3 @@
-Test for variable assignment in variable assignment, which should throw an error.
+(sequence
+    (declare a ())
+)

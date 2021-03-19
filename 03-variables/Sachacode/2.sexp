@@ -1,1 +1,3 @@
-Test for a varible being assigned with a keyword.
+(sequence
+    (declare print 0)
+)
