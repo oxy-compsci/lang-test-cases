@@ -1,3 +1,1 @@
-(sequence
-    (declare a ())
-)
+
