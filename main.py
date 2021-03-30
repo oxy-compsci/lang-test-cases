@@ -4,6 +4,7 @@ from pathlib import Path
 
 from parser import Parser # FIXME change this line to use your code if necessary
 from interpreter import Interpreter # FIXME change this line to use your code if necessary
+from transforms import ConstantFoldingTransform # FIXME change this line to use your code if necessary
 
 
 def normalize_sexp(string):
@@ -108,6 +109,10 @@ def test_with_file(lang_path):
         # otherwise, check against the intermediate representation
         sexp_path = lang_path.parent.joinpath(lang_path.stem + '.sexp')
         test_sexp(sexp_path, parse, 'intermediate representation does not match')
+        # check against the transformed intermediate representation
+        sexp2_path = lang_path.parent.joinpath(lang_path.stem + '.sexp2')
+        parse = ConstantFoldingTransform().visit(parse)
+        test_sexp(sexp2_path, parse, 'transformed intermediate representation does not match')
         # run the program to get the output
         actual_output = Interpreter().execute(parse)
     # read the expected output
