@@ -1,7 +1,7 @@
 # To-strings and overlapping identifiers
 
 var Fruit = class {
-    var Fruit = func() {
+    var Fruit = func(this) {
         ret 1;
     };
 };

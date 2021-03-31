@@ -1,6 +1,6 @@
 (sequence
     (declare Fruit (class
-        (declare Fruit (function (parameters) (sequence 
+        (declare Fruit (function (parameters this) (sequence 
             (return 1))))))
     (declare myfunc (function (parameters) (sequence 
         (declare Fruit (call (lookup Fruit) (arguments)))
