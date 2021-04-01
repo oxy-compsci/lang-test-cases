@@ -1,4 +1,5 @@
 (sequence
     (if
-        (1)
-        (print (1))))
+        1
+        (sequence
+            (print 1))))

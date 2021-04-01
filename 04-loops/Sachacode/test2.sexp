@@ -1,7 +1,7 @@
 (sequence
     (ifelse
-        (== (lookup a) (1))
+        (== (lookup a) 1)
         (sequence
-            print (0)
+            (print 0))
         (sequence
-            print (1)))))
+            (print 1))))

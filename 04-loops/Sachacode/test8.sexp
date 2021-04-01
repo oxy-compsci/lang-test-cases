@@ -2,4 +2,4 @@
     (if
         (/ 1 0)
         (sequence
-            (print (1)))))
+            (print 1))))
