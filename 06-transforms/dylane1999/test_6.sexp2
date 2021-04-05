@@ -1,0 +1,1 @@
+(sequence (declare i 3) (print (- (+ (- (lookup i) (* (lookup i) 2)) (* 12 (lookup i))) 25)))
