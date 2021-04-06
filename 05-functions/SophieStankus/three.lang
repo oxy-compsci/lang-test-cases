@@ -3,5 +3,5 @@
 var a = func(b, c) {
   print b;
   print c;
-}
+};
 a(1, 2);
