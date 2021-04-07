@@ -1,6 +1,6 @@
 # tests return values & reassignment
 var a = func() {
-  return 1;
+  ret 1;
 };
 var b = a();
 print b;
