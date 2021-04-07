@@ -1,3 +1,3 @@
-runtime error: divide by zero        print 101 / 11 / (50 * 0);
+print 101 / 11 / (50 * 0);
         
-        # check that the transformer will transform as much as possible until it reaches a divide by zero error
+# check that the transformer will transform as much as possible until it reaches a divide by zero error
