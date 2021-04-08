@@ -4,7 +4,7 @@ var foo = class{
     };
 };
 
-x = foo();
+var x = foo();
 x.bar();
 
 # test for an arg mismatch when a memeber does not have this as a parameter
