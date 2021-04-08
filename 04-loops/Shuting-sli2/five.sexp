@@ -1,0 +1,1 @@
+(sequence (declare a 1) (declare b 2) (while (! (> (lookup a) (lookup b))) (sequence)) (print (* (lookup a) (lookup b))))

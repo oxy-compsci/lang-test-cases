@@ -1,0 +1,8 @@
+var a = 1;
+var b = 2;
+while (!(a > b)){
+	b = - 1 * b ;
+}
+print a * b;
+
+# testing comparison and not epression in condition

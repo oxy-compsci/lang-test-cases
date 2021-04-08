@@ -1,0 +1,1 @@
+(sequence (declare x 10) (ifelse (< (lookup x) 0) (sequence) (sequence (ifelse (> (lookup x) 5) (sequence (print (- (lookup x) 5))) (sequence (print (+ (lookup x) 5)))))))

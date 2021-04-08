@@ -1,0 +1,1 @@
+(sequence (declare x 2) (if (< (lookup x) 4) (sequence (declare x 4))))
