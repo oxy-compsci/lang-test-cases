@@ -4,5 +4,5 @@
         1
         (sequence
             (print (lookup a))
-            (declare a (lookup a))
+            (declare a (+ (lookup a) 1))
             (print (lookup a)))))
