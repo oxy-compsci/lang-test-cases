@@ -13,6 +13,7 @@ public class Main {
 
     static Parser parser = new Parser(); // FIXME change this line to use your code if necessary
     static Interpreter interpreter = new Interpreter(); // FIXME change this line to use your code if necessary
+    static ConstantFoldingTransform transformer = new ConstantFoldingTransform(); // FIXME change this line to use your code if necessary
 
     static class SExpParse {
         String sexp = "";
@@ -148,6 +149,10 @@ public class Main {
                 // otherwise, check against the intermediate representation
                 Path sexpPath = langPath.resolveSibling(langPath.getFileName().toString().replace(".lang", ".sexp"));
                 testSExp(sexpPath, parse, "intermediate representation does not match");
+                // check against the transformed intermediate representation
+                Path sexp2Path = langPath.resolveSibling(langPath.getFileName().toString().replace(".lang", ".sexp2"));
+                parse = transformer.visit(parse);
+                testSExp(sexp2Path, parse, "transformed intermediate representation does not match");
                 // run the program to get the output
                 actualOutput = Main.interpreter.execute(parse);
             }
