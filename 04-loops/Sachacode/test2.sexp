@@ -1,5 +1,5 @@
 (sequence
-    (declare a 0)
+    (declare a 1)
     (ifelse
         (== (lookup a) 1)
         (sequence
