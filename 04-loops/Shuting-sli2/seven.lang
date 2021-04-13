@@ -1,8 +1,8 @@
 var a = 1;
 var b = 2;
-var c = 3;
-while (a * b * c > 0){
-	c = -1 * c;
+var c = 5;
+while (a * b < c){
+	c = c - 1;
 }
 print a * b * c;
 
