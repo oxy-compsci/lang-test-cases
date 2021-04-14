@@ -22,4 +22,4 @@ var get_nth_prime = func(n) {
     ret i;
 };
 
-print get_nth_prime(30);
+print get_nth_prime(100);

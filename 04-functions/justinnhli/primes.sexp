@@ -15,4 +15,4 @@
             (if (== (call (lookup is_prime) (arguments (lookup i))) 1)
                 (sequence (assign (varloc count) (+ (lookup count) 1))))))
         (return (lookup i)))))
-    (print (call (lookup get_nth_prime) (arguments 30))))
+    (print (call (lookup get_nth_prime) (arguments 100))))
