@@ -1,5 +1,5 @@
 (sequence
     (declare printTen
-        (function
+        (function (parameters)
             (sequence (print 10))))
     (call (lookup printTen) (arguments)))
