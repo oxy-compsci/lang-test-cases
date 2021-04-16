@@ -6,4 +6,4 @@ var x = func(a, x){
 	}(x);
 };
 
-x(x,x);
+ret x(x,x);
