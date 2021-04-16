@@ -1,0 +1,12 @@
+#battle of errors 3 (who will come out on top??)
+
+var x = func(a){
+	if(a == 1){
+		ret 1;
+	}
+	ret x + 1;
+};
+
+if(1){
+	ret x(x);
+}
