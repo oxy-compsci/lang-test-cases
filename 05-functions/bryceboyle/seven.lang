@@ -1,0 +1,4 @@
+var p = func(var n){
+    print 5;
+};
+p();
