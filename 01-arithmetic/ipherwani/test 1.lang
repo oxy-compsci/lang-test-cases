@@ -1,0 +1,2 @@
+#test printing integers
+print 4;
