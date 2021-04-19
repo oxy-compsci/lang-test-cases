@@ -1,0 +1,9 @@
+# makes sure 'fake' this's are found
+
+var x = class{
+	var y = func(a){
+		print a;
+	}
+};
+
+x().y();
