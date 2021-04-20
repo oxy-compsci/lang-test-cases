@@ -1,1 +1,1 @@
-(sequence (declare num 6) (call (lookup num) (arguments)))
+(sequence (declare num 6) (print (call (lookup num) (arguments))))
