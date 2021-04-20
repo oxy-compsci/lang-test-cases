@@ -6,4 +6,5 @@
     (while
         (< (lookup i) 6)
             (sequence
-                (call (lookup printNum) (arguments i)))))
+                (call (lookup printNum) (arguments (lookup i)))
+                (assign (varloc i) (+ (lookup i) 1)))))

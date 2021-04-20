@@ -1,4 +1,5 @@
 (sequence
+    (declare a 0)
     (declare a
         (function (parameters n)
             (sequence (print (lookup n)))))

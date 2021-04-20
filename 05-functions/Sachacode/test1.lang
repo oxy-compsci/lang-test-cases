@@ -2,4 +2,4 @@
 var printTen = func() {
     print 10;
 };
-printNum();
+printTen();
