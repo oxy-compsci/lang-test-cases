@@ -1,8 +1,7 @@
-# it's a runtime error when there are two return statements in one function ?
 var x = func(){
     var sum = 1+2+3+4;
     ret sum;
     ret sum + 1;
 };
 
-x();
+print x();
