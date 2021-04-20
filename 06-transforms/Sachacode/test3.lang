@@ -1,0 +1,3 @@
+#testing for folding with a single variable
+var x = 1;
+print 1 + 2 + x;
