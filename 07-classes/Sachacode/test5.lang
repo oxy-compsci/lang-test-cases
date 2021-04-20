@@ -3,7 +3,7 @@ var A = class {
     #hello
     var b = 0;
     #hi
-}
+};
 #hehe
 var c = A();
 #aha

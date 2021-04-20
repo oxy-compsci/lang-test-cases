@@ -1,8 +1,6 @@
 (sequence
-    (declare A (class
-        (declare b 0)))
-    (declare c
-        (lookup A) (agruments))
+    (declare A (class (declare b 0)))
+    (declare c (call (lookup A) (arguments)))
     (while
         (< (member (lookup c) b) 6)
         (sequence

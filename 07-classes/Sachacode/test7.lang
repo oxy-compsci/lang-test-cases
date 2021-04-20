@@ -4,8 +4,8 @@ var A = func() {
     ret class{
         var getValue = func(this) {
             ret static;
-        }
+        };
     };
 };
 var b = A();
-print b.getValue();
+print b;

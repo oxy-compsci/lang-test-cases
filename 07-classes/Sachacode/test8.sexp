@@ -1,10 +1,5 @@
 (sequence
-    (declare A (class
-        (declare b (/ 0 0))))
-    (declare c
-        (lookup A) (agruments))
-    (assign
-        (memloc (varloc c) b)
-        10)
-    (print
-        (member (lookup c) b)))
+    (declare A (class (declare b (/ 0 0))))
+    (declare c (call (lookup A) (arguments)))
+    (assign (memloc (varloc c) b) 10)
+    (print (member (lookup c) b)))

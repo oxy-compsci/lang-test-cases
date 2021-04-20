@@ -5,7 +5,7 @@ var A = class {
         print b;
         var b = 0;
         print b;
-    }
+    };
 };
 var c = A();
 c.printStuff();

@@ -7,7 +7,5 @@
                     (print (lookup b))
                     (declare b 0)
                     (print (lookup b)))))))
-    (declare c
-        (lookup A) (agruments))
-    (call
-        (member (lookup c) printstuff)))
+    (declare c (call (lookup A) (arguments)))
+    (call (member (lookup c) printstuff)))

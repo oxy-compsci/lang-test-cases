@@ -6,6 +6,6 @@
         (declare b 
         (function (parameters this)
             (sequence (print 10))))))
-    (declare c (lookup A) (arguments))
+    (declare c (call (lookup A) (arguments)))
     (call (member (lookup c) b) (arguments))
     (call (lookup b) (arguments)))
