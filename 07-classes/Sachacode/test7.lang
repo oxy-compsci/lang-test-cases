@@ -1,0 +1,11 @@
+#testing static variables
+var A = func() {
+    var static = 101;
+    ret class{
+        var getValue = func(this) {
+            ret static;
+        }
+    };
+};
+var b = A();
+print b.getValue();
