@@ -1,6 +1,6 @@
-# classes in classes
+# functions in classes
 var first = class {
-  var second = class {
+  var second = func(){
     ret 5;
   };
 };
