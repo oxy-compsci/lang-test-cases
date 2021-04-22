@@ -5,5 +5,5 @@ var first = class {
   };
 };
 
-var result = first().second();
+var result = first().second(5);
 print result;
