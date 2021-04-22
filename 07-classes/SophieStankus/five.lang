@@ -1,4 +1,4 @@
-# checks for needing 'this'
+# checks for syntax error without 'this'
 var x = class {
   var y = func() {
   };
