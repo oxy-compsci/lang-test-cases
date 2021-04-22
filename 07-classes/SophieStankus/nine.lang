@@ -1,0 +1,9 @@
+# classes in classes
+var first = class {
+  var second = class {
+    ret 5;
+  };
+};
+
+var result = first().second();
+print result;
