@@ -1,0 +1,5 @@
+# checks for needing 'this'
+var x = class {
+  var y = func() {
+  };
+};
