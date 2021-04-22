@@ -1,6 +1,6 @@
 # functions in classes
 var first = class {
-  var second = func(){
+  var second = func(this){
     ret 5;
   };
 };
