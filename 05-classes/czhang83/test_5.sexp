@@ -1,0 +1,1 @@
+(sequence (declare A (class)) (declare obj (call (lookup A) (arguments))) (print (lookup A)) (print (lookup obj)))

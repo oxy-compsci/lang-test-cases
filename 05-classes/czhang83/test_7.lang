@@ -1,0 +1,18 @@
+# compare member variable for different instance
+
+var A = class {
+  var b = 1;
+  var c = func(this){};
+};
+
+var obj1 = A();
+var obj2 = A();
+# each instance has a different func object
+print obj1.c == obj2.c;
+obj1.c = func(this){};
+print obj1.c == obj2.c;
+
+# member value are evaluated
+print obj1.b == obj2.b;
+obj1.b = 3;
+print obj1.b == obj2.b;
