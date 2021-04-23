@@ -1,3 +1,6 @@
+# this should give an error since blueprint is defined outside class,
+# so it still needs two parameters even when assigned to a member function.
+
 var MetaConstruction = class {
 	var id = 0;
 	var constructor = func(this, constructor){

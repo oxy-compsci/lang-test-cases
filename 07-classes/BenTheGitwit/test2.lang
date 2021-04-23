@@ -1,8 +1,8 @@
-# makes sure 'this' doesn't always need to be the first parameter
+# makes sure 'this' is the first parameter, not any parameter named 'this'
 
 var x = class{
 	var y = func(n, this){
-		print n;
+		print this;
 	};
 	var add = func(a, this, b){
 		print a+b;
