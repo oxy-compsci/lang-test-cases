@@ -1,1 +1,1 @@
-(sequence (print (+ (2 + 3) (/ 1 0))))
+(sequence (print (+ (+ 2 3) (/ 1 0))))
