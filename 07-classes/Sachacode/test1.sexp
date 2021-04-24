@@ -5,7 +5,7 @@
             (function (paramters this b)
                 (sequence
                     (assign
-                        (memeber (lookup this))
+                        (memeber (varloc this))
                         b))))))
     (declare c (call (lookup A) (arguments)))
     (call (member (lookup constructor)) (agruments))

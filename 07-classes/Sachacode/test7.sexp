@@ -1,8 +1,8 @@
 (sequence
-    (declare A (function
+    (declare A (function (parameters)
         (sequence
             (declare static 101)
-            (ret (class
+            (return (class
                 (declare getValue
                     (function (parameters this)
                         (sequence (ret (lookup static))))))))))
