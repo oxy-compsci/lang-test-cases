@@ -5,3 +5,4 @@ func x = func() -> func {
   }
   ret y;
 }
+x()();
