@@ -2,7 +2,7 @@
 func x = func() -> func {
   func y = func() -> func {
     ret 1;
-  }
+  };
   ret y;
-}
+};
 x()();
