@@ -1,0 +1,7 @@
+# checks type mismatch 
+
+var x = func() -> func {
+    ret 10;
+  }();
+  
+x();
