@@ -1,3 +1,0 @@
-# checks that won't fold with var
-var x = 5;
-print x * 5 + 10 + 0;
