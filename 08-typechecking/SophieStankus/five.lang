@@ -1,5 +1,0 @@
-# tests basic type check error
-func x = func() -> func {
-  ret 10;
-};
-x();
