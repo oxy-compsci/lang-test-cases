@@ -1,4 +1,4 @@
-# checks type mismatch 
+# checks function type mismatch 
 
 var x = func() -> func {
     ret 10;
