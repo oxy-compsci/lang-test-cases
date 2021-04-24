@@ -1,1 +1,1 @@
-(sequence (print (/ 2 (/ 1 0))))
+(sequence (print (/ (/ 2 1) 0)))
