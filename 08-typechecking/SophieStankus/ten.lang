@@ -1,4 +1,4 @@
-# inner type mismatch
+# inner func type mismatch
 func x = func() -> func {
   func y = func() -> func {
     ret 1;
