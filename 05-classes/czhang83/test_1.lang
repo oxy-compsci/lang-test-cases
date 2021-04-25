@@ -8,5 +8,5 @@ var A = class {
   };
 };
 
-var obj = A();
-obj.c();
+var object = A();
+object.c();

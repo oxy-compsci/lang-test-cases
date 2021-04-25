@@ -5,14 +5,14 @@ var A = class {
   var c = func(this){};
 };
 
-var obj1 = A();
-var obj2 = A();
+var object1 = A();
+var object2 = A();
 # each instance has a different func object
-print obj1.c == obj2.c;
-obj1.c = func(this){};
-print obj1.c == obj2.c;
+print object1.c == object2.c;
+object1.c = func(this){};
+print object1.c == object2.c;
 
 # member value are evaluated
-print obj1.b == obj2.b;
-obj1.b = 3;
-print obj1.b == obj2.b;
+print object1.b == object2.b;
+object1.b = 3;
+print object1.b == object2.b;

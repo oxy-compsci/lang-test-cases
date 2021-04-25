@@ -1,1 +1,1 @@
-(sequence (declare A (class (declare b 1) (declare c (function (parameters self) (sequence (print (member (lookup self) b))))))) (declare obj (call (lookup A) (arguments))) (call (member (lookup obj) c) (arguments)))
+(sequence (declare A (class (declare b 1) (declare c (function (parameters self) (sequence (print (member (lookup self) b))))))) (declare object (call (lookup A) (arguments))) (call (member (lookup object) c) (arguments)))

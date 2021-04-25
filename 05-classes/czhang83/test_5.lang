@@ -4,6 +4,6 @@ var A = class {
 
 };
 
-var obj = A();
+var object = A();
 print A;
-print obj;
+print object;

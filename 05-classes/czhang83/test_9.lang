@@ -12,8 +12,8 @@ var A = class {
   };
 };
 
-var obj = A();
-var inner = obj.c()();
+var object = A();
+var inner = object.c()();
 print inner.getB();
-obj.b = 2;
+object.b = 2;
 print inner.getB();

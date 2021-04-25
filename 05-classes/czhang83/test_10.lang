@@ -9,6 +9,6 @@ var A = class {
   };
 };
 
-var obj = A();
-var innerObj = obj.c();
+var object = A();
+var innerObj = object.c();
 print innerObj.d;
