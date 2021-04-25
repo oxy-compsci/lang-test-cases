@@ -1,0 +1,1 @@
+(sequence (declare print_num (function (parameters) (sequence (print 11) (return 11)))) (declare useless (call (lookup print_num) (arguments))))

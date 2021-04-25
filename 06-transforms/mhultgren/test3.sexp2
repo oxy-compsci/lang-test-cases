@@ -1,0 +1,1 @@
+(sequence (declare j 12) (print (+ (lookup j) 3)))

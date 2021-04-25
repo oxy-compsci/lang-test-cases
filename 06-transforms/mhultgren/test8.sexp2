@@ -1,0 +1,1 @@
+(sequence (declare i 0) (declare a 11) (while (< (lookup i) 10) (sequence (print (lookup i)) (assign (varloc i) (+ (lookup i) 1)))))

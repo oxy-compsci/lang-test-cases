@@ -1,0 +1,6 @@
+# test dead code elimination
+print 3;
+
+if (0 || 0) {
+    print 7;
+}

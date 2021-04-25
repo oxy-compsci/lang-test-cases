@@ -1,0 +1,6 @@
+# test function inlining
+var print_num = func() {
+    print 12;
+};
+
+print_num();

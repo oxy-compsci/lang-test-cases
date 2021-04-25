@@ -1,0 +1,4 @@
+# test dead store elimination
+var i = 101;
+var j = 12;
+print j + 3;
