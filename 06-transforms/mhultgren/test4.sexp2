@@ -1,1 +1,1 @@
-(sequence)
+(sequence (declare i 0) (print (* (lookup i) 3)))

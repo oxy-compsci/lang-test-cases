@@ -1,4 +1,2 @@
-# test dead store elimination
-var i = 101;
-var j = 12;
-print j + 3;
+# test dividing by zero
+print 1 / 0;

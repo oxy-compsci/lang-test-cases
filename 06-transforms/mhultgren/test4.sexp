@@ -1,1 +1,1 @@
-(sequence (declare i 0))
+(sequence (declare i 0) (print (* (lookup i) (/ 11 3))))

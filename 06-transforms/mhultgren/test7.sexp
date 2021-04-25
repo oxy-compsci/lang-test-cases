@@ -1,1 +1,1 @@
-(sequence (print 3) (if (|| 0 0) (sequence (print 7))))
+(sequence (declare i 72) (if (== (/ (lookup i) (+ 12 12)) 3) (sequence (print (lookup i)))))

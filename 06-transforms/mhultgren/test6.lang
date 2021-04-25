@@ -1,6 +1,1 @@
-# make sure dead store elimination does not remove variable declared w/ function
-var print_num = func() {
-    print 11;
-    ret 11;
-};
-var useless = print_num();
+print 33 * 12 / (11 - (1 * 11));

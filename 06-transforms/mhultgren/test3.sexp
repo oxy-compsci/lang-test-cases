@@ -1,1 +1,1 @@
-(sequence (declare i 101) (declare j 12) (print (+ (lookup j) 3)))
+(sequence (print (/ 1 0)))

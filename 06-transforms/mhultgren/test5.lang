@@ -1,6 +1,3 @@
-# test function inlining
-var print_num = func() {
-    print 12;
-};
-
-print_num();
+# test reducing parentheses first
+var x = 33;
+print (11 + (12 * 13) - 10) * x;

@@ -1,1 +1,1 @@
-(sequence (declare print_num (function (parameters) (sequence (print 12)))) (call (lookup print_num) (arguments)))
+(sequence (declare x 33) (print (* (- (+ 11 (* 12 13)) 10) (lookup x))))
