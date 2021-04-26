@@ -1,0 +1,2 @@
+var word = "no";
+print word;
