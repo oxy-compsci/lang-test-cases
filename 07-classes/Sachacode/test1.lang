@@ -1,9 +1,8 @@
 #testing class with a constructor
 var A = class {
     var b = 0;
-    var constructor = func(this, b) {
-        this.b = b;
-        ret b;
+    var constructor = func(this, num) {
+        b = num;
     };
 };
 var c = A();

@@ -8,4 +8,4 @@
                     (declare b 0)
                     (print (lookup b)))))))
     (declare c (call (lookup A) (arguments)))
-    (call (member (lookup c) printStuff)))
+    (call (member (lookup c) printStuff) (arguments)))

@@ -2,11 +2,9 @@
     (declare A (class
         (declare b 0)
         (declare constructor
-            (function (paramters this b)
+            (function (paramters this num)
                 (sequence
-                    (assign
-                        (memeber (varloc this))
-                        b))))))
+                    (assign (memloc (varloc this) b) (lookup num)))))))
     (declare c (call (lookup A) (arguments)))
-    (call (member (lookup constructor)) (agruments))
+    (call (member (lookup constructor)) (agruments 5))
     (print (member (lookup c) b)))

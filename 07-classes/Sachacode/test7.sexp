@@ -5,6 +5,5 @@
             (return (class
                 (declare getValue
                     (function (parameters this)
-                        (sequence (ret (lookup static))))))))))
-    (declare b (call (lookup A) (arguments)))
-    (print (lookup b)))
+                        (sequence (return (lookup static))))))))))
+    (declare b (call (lookup A) (arguments))))
