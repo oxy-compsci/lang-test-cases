@@ -1,1 +1,1 @@
-(sequence (declare x 5) (print (+ 10 (- 10 (lookup x)))))
+(sequence (declare x 5) (print (+ (- 10 (lookup x) 10))))
