@@ -4,4 +4,4 @@ var x = func() {
   var z = 10;
   print y * 5 * (5 + 5) + z;
 };
-func();
+x();
