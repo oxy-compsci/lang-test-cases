@@ -5,4 +5,5 @@ func b = func(){
   func a = func(){};
   print a;
 };
+b();
 print a;
