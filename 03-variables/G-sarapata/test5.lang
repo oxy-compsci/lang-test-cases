@@ -1,0 +1,3 @@
+// Testing that a variable must be declared
+num1 = 9;
+print num1;

@@ -1,0 +1,2 @@
+// Test that parenthesis work in the beginning
+print (3 - 1) * 2;

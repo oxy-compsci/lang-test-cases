@@ -1,0 +1,6 @@
+// Testing loop that counts to 10 
+var test = 0;
+while (test < 11) {
+print test;
+test = test + 1;
+}

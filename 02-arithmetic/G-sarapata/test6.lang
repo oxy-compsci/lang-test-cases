@@ -1,0 +1,2 @@
+// Testing order of operations works
+print 3 + 2 * 5;

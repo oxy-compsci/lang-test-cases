@@ -1,0 +1,5 @@
+// Testing declaring funcitons 
+var multiply = func(a) {
+ret a * 5;
+}
+print multiply(4);

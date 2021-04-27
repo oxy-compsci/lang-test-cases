@@ -1,0 +1,2 @@
+// Test that parenthesis work in the middle
+print 3 * (2 + 2) * 2;

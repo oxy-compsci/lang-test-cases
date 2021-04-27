@@ -1,0 +1,7 @@
+// Testing if else is true
+var test = 10;
+if (test < 5) {
+print true;
+} else {
+print false;
+}

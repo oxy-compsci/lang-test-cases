@@ -1,0 +1,7 @@
+// Extra if else statement 
+var test = 2;
+if (test / 2 == 1) {
+print true;
+} else {
+print false;
+}
