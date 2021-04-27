@@ -1,6 +1,6 @@
 var Thing = class{
     var count = 0;
-    var increase = func(n){
+    var increase = func(this, n){
         n = n + 1;
     };
 };

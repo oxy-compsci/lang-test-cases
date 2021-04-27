@@ -7,8 +7,7 @@
                 (declare temp 0)
                 (assign (varloc temp) (member (lookup a) num))
                 (assign (memloc (varloc a) num) (member (lookup b) num))
-                (assign (memloc (varloc b) num) (lookup temp))
-                (assign (varloc n) (+ (lookup n) 1)))))
+                (assign (memloc (varloc b) num) (lookup temp)))))
     (declare one
         (call (lookup Abc) (arguments)))
     (assign (memloc (varloc one) num) 1)

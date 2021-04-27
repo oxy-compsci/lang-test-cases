@@ -2,7 +2,7 @@
     (declare Thing (class
         (declare count 0)
         (declare increase 
-            (function (parameters n)
+            (function (parameters this n)
             (sequence
                 (assign (varloc n) (+ (lookup n) 1)))))))
     (declare thing1
