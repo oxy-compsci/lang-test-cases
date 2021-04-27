@@ -1,1 +1,1 @@
-(sequence (+ x 6))
+(sequence (+ (lookup x) 6))
