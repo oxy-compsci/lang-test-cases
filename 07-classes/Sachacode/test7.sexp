@@ -1,9 +1,6 @@
 (sequence
-    (declare A (function (parameters)
+    (declare A (function (parameters n)
         (sequence
-            (declare static 101)
-            (return (class
-                (declare getValue
-                    (function (parameters this)
-                        (sequence (return (lookup static))))))))))
-    (declare b (call (lookup A) (arguments))))
+            (declare b (lookup n))
+            (print (lookup b)))))
+    (print (member (lookup A) b)))
