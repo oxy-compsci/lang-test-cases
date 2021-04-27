@@ -2,6 +2,6 @@
 int x = 1;
 int y = 1;
 func sub = func(int a, int b) -> int {
-    ret a + b;
+    ret a - b;
 };
 print sub(x, y);

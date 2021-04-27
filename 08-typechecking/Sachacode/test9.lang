@@ -1,12 +1,12 @@
 #testing typed function with functions are parameters
-func a = func(x) -> int {
+func a = func(int x) -> int {
     ret x;
 };
-func b = func(x) -> int {
+func b = func(int x) -> int {
     ret -1 * x;
 };
-func c = func(int n, func x, func y) -> int {
-    ret x(n) + y(n);
+func c = func(int i, func x, func y) -> int {
+    ret x(i) + y(i);
 };
 int n = 5;
 print c(n, a, b);
