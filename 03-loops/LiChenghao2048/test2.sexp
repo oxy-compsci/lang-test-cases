@@ -1,1 +1,1 @@
-(sequence (while 0 (sequence (print 1))) 
+(sequence (while 0 (sequence (print 1)))) 
