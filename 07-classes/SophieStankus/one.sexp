@@ -1,1 +1,1 @@
-(sequence (declare x (class (declare y 5))) (print (member (lookup x) y)))
+(sequence (declare x (class (declare y 5))) (print (call (member (lookup x) y))))
