@@ -1,1 +1,1 @@
-(sequence (print (+ 10 (+ 10 10))))
+(sequence (print (+ (+ 10 10) 10)))
