@@ -1,4 +1,4 @@
-# checks for syntax error without 'this'
+# checks for mismatch error without 'this'
 var x = class {
   var y = func() {
   };
