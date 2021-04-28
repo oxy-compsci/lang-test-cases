@@ -1,1 +1,1 @@
-(sequence (declare x 1) (print (- (- x 1) 0)))
+(sequence (declare x 1) (print (- (- 0 1) (lookup x))))
