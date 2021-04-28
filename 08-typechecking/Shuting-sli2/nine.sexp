@@ -1,0 +1,1 @@
+(sequence (declare int a 1) (declare func foo (function (parameters) (sequence))) (declare func b (call (lookup foo) (arguments))) (print (+ (lookup a) (lookup b))))

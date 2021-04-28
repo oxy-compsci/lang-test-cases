@@ -1,0 +1,6 @@
+# type mismatch when assigning function to int
+var outter = func() -> func{
+	ret func(){
+	};
+};
+int num = outter()();

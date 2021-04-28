@@ -1,0 +1,1 @@
+(sequence (declare mytype (class (declare int day 99))) (declare int num (call (lookup mytype) (arguments))) (declare f (function (parameters) (sequence))) (assign (memloc (varloc num) day) (lookup f)))

@@ -1,0 +1,8 @@
+# math operation on typed ints and typed function
+int a = 1;
+func foo = func(){
+
+};
+func b = foo();
+
+print a+b;
