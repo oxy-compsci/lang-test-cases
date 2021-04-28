@@ -3,7 +3,7 @@ func a = func(int x) -> int {
     ret x;
 };
 func b = func(int x) -> int {
-    ret -1 * x;
+    ret (0 - 1) * x;
 };
 func c = func(int i, func x, func y) -> int {
     ret x(i) + y(i);
