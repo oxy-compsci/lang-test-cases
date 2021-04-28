@@ -3,4 +3,4 @@ var outter = func() -> func{
 	ret func(){
 	};
 };
-int num = outter();
+func num = outter();
