@@ -4,10 +4,9 @@ var C = class {
 };
 
 var c1 = C();
-var c_val = c1.value;
 
-while (c_val != 0){
+while (c1.value != 0){
 	c1.value = c1.value - 1;
 }
 
-print c_val; #0
+print c1.value; #0

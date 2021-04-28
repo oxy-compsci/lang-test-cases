@@ -7,4 +7,4 @@ var outter = func(int a, b) -> func{
 	};
 };
 var b = 9;
-func num = outter(2, b)();
+outter(2, b)();

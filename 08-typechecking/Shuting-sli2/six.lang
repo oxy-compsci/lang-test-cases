@@ -4,5 +4,5 @@ var mytype = class {
     int day = 99;
 };
 
-int num = mytype();
+var num = mytype();
 print num.day;

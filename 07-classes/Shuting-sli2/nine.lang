@@ -1,6 +1,6 @@
 # calling function inside a class
 var C = class {
-    var foo = func() {
+    var foo = func(this) {
 		ret 1;
 	};
 };

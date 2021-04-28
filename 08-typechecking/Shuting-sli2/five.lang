@@ -7,7 +7,7 @@ var F = func(int n) {
         ret n;
     };
 
-    var addition = func(int other_b, other_c, int other_d, other_e) -> func{
+    var addition = func(func other_b, other_c, func other_d, other_e) -> func{
         ret F(
             n + other_b(1)() + other_c(1)() + other_d(1)() + other_e(1)()
         );
@@ -24,11 +24,11 @@ var F = func(int n) {
     };
 };
 
-int a = F(0);
-int b = F(1);
-int c = F(2);
-int d = F(3);
-int e = F(4);
+func a = F(0);
+func b = F(1);
+func c = F(2);
+func d = F(3);
+func e = F(4);
 
 
 func f = a(2)(b, c, d, e);

@@ -6,7 +6,8 @@ var C = class {
 
   
 var run = func(n) {
-    ret n = n/2;
+    n = n/2;
+    ret n;
 };
 
 var c1 = C();
