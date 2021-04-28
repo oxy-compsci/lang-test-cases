@@ -3,3 +3,6 @@ var x = class {
   var y = func() {
   };
 };
+
+var z = x();
+var a = z.y();
