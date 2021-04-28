@@ -6,5 +6,5 @@
                 (sequence
                     (assign (varloc b) (lookup num)))))))
     (declare c (call (lookup A) (arguments)))
-    (call (member (call (lookup c) (arguments 5) constructor)))
+    (call (member (lookup c) constructor) (arguments 5))
     (print (member (lookup c) b)))
