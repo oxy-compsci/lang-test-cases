@@ -1,4 +1,3 @@
-# runtime error: variable already defined in nested function
 var f = func(n) {
     ret func(){
 	n = 99;
