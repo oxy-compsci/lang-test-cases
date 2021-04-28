@@ -1,4 +1,4 @@
-# testing setting member variables 
+# tests setting member variables 
 var C = class {
     var a = 10;
     var b = 9;
