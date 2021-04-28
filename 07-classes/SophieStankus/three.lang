@@ -1,4 +1,4 @@
-# basic syntax error in creating class instance without ()
+# creating class instance without ()
 var x = class {
 };
 var y = x;
