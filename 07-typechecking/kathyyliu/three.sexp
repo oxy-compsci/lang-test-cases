@@ -1,5 +1,5 @@
 (sequence
-    (declare var myfunc (function
+    (declare myfunc (function
         (signature var var var) (parameters a b) (sequence 
             (print 1))))
     (declare x 1)

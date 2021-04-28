@@ -1,6 +1,6 @@
 (sequence
     (declare is_two (function
-        (siganture int int) (parameters a) (sequence 
+        (signature int int) (parameters a) (sequence 
             (ifelse (== (lookup a) 2) 
                 (sequence (return 1))
                 (sequence (return 0))))))
