@@ -1,8 +1,8 @@
-# checks for mismatch error without 'this'
+# checks for syntax error without 'this'
 var x = class {
   var y = func() {
   };
 };
 
 var z = x();
-var a = z.y();
+z.y();
