@@ -3,3 +3,4 @@ var x = class {
   var y = 2;
   var y = 3;
 };
+var z = x();
