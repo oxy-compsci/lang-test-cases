@@ -1,1 +1,1 @@
-(sequence (declare a (function (signature func int) (parameters x)) (sequence (ret (lookup x)))) (print (call (lookup a) (arguments (lookup a)))))
+(sequence (declare a (function (signature func int) (parameters x) (sequence (return (lookup x))))) (print (call (lookup a) (arguments (lookup a)))))
