@@ -1,0 +1,36 @@
+# testing set value with while loop
+
+var F = func(n) {
+
+    var get_n = func() {
+        ret n;
+    };
+
+    var set_n = func(val) {
+        n = val;
+    };
+
+    ret func(index) {
+        if (index == 1) {
+            ret get_n;
+        }
+
+        if (index == 2) {
+            ret set_n;
+        }
+    };
+};
+
+
+var a = F(10);
+var value = a(1)();
+print value;
+while (value){
+	a(2)(value - 1);
+	value = a(1)();
+        print value;
+}
+
+print value;
+
+
