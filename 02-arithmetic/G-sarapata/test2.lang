@@ -1,2 +1,2 @@
-# Test that there must be a space
+# Test that variables must be defined
 print3;

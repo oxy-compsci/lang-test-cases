@@ -2,8 +2,8 @@
 var test = 5;
 if (test < 100) {
 test = test * 5;
-print true; 
+print 1; 
 } else {
-print false;
+print 0;
 }
 print test;

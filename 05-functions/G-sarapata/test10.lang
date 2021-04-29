@@ -4,6 +4,6 @@ var mult = a * b;
 var div = a / b;
 var add = a + b;
 var sub = a - b;
-ret sult + div + add + sub;
+ret mult + div + add + sub;
 };
 print test(4, 2);

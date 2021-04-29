@@ -1,2 +1,2 @@
-# Test integer divison
-print 5 / 2;
+# Test divison
+print 10 / 2;
