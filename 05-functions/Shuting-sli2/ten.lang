@@ -25,7 +25,8 @@ var F = func(n) {
 var a = F(10);
 var value = a(1)();
 while (value){
-	value = a(2)(value - 1);
+	a(2)(value - 1);
+	value = a(1)();
 }
 
 print value;
