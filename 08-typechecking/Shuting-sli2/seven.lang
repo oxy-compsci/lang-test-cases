@@ -1,0 +1,12 @@
+# tests resetting type member variables with wrong type
+
+var mytype = class {
+    int day = 99;
+};
+
+int num = mytype();
+
+var f = func(){
+};
+
+num.day = f;

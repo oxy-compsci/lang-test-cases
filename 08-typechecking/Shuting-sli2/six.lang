@@ -1,0 +1,8 @@
+# type member variables
+
+var mytype = class {
+    int day = 99;
+};
+
+var num = mytype();
+print num.day;
