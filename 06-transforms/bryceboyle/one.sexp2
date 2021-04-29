@@ -1,2 +1,1 @@
-(sequence
-    (print (/ (lookup t) 0)))
+(sequence (declare t 4) (print (/ (lookup t) 0)))
