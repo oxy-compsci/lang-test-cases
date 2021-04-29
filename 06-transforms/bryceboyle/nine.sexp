@@ -1,0 +1,1 @@
+(sequence (declare hat (function (parameters (lookup cat)) (sequence (return (- (+ (lookup cat) (* 2 (lookup cat))) 3))))) (print (call (lookup hat) (arguments 2))))
