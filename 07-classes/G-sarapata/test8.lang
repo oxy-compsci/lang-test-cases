@@ -1,11 +1,11 @@
 var echo = class {
 	var age = func(a) {
-		ret 3;
+		print 3;
 	};
 };
 var mocha = class {
 	var age = func(a) {
-		ret 2;
+		print 2;
 	};	
 };
 echo().age(1);

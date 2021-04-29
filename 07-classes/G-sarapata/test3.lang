@@ -9,4 +9,4 @@ var second = class {
 		ret b + 1;
 	};
 };
-second().two(6);
+print second().two(6);

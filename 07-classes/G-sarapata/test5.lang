@@ -2,9 +2,9 @@
 var first = class {
 	var one = func(a) {
 		if ( a < 5) {
-			ret 1;
+			print 1;
 		} else {
-			ret 0;
+			print 0;
 		}
 	};
 };

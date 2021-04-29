@@ -1,7 +1,7 @@
 var echo = class {
-	var goodBoy = func(a) {
+	var isGoodBoy = func(a) {
 		ret 1;
 	};
 };
 
-echo().goodBoy(1);
+print echo().isGoodBoy(1);
