@@ -1,0 +1,8 @@
+# testing using second of two functions
+var one = func(a) {
+ret a + 6;
+};
+var two = func(b) {
+ret b * 10;
+};
+print two(5);

@@ -1,4 +1,4 @@
-// Testing print statement after while loop
+# Testing print statement after while loop
 var test = 5;
 while (test != 0) {
 test = test - 1;

@@ -1,4 +1,4 @@
-// Testing that used variables keep their value
+# Testing that used variables keep their value
 var num1 = 10;
 var num2 = num1 + 5;
 print num1;

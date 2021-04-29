@@ -1,4 +1,4 @@
-// Testing that variables can be reassigned values
+# Testing that variables can be reassigned values
 var num1 = 8;
 num1 = 7;
 num1 = 6;

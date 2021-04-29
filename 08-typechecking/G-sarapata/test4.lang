@@ -1,0 +1,4 @@
+# Test that you can do mathematics with int
+int one = 2;
+int two = 3;
+print one * two;

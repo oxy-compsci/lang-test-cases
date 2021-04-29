@@ -1,0 +1,8 @@
+# Testing using first of two functions
+var one = func(a) {
+ret a + 1;
+};
+var two = func(b) {
+ret b * 5;
+};
+print one(5);

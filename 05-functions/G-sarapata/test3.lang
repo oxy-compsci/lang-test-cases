@@ -1,0 +1,5 @@
+# Testing duplicate parameter error
+var test = func(a, a) {
+ret 1;
+};
+print test(1, 2);

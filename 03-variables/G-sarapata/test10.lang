@@ -1,4 +1,4 @@
-// Testing that you can multiply variables in a print statement
+# Testing that you can multiply variables in a print statement
 var num1 = 9;
 var num2 = 7;
 print num1 * num2;

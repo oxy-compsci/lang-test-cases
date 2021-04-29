@@ -1,0 +1,12 @@
+# Testing using first of two classes
+var first = class {
+	var one = func(a) {
+		ret a;
+	};
+};
+var second = class {
+	var two = func(b) {
+		ret b + 1;
+	};
+};
+second().two(6);

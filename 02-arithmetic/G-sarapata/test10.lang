@@ -1,2 +1,2 @@
-// Test integer divison
+# Test integer divison
 print 5 / 2;

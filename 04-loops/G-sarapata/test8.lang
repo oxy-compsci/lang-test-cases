@@ -1,4 +1,4 @@
-// Testing two variables in while loops
+# Testing two variables in while loops
 var num1 = 11;
 var num2 = 1;
 while (num1 > num2) {

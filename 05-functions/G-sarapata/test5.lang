@@ -1,0 +1,5 @@
+# Testing math operations on functions
+var test = func(a) {
+ret 9 * a;
+};
+print 10 * test(3);

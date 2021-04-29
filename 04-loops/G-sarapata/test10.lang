@@ -1,4 +1,4 @@
-// Extra while loop
+# Extra while loop
 var num1 = 100;
 var num2 = 1;
 while (num1 > num2) {

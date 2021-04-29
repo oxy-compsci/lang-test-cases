@@ -1,0 +1,7 @@
+var echo = class {
+	var goodBoy = func(a) {
+		ret 1;
+	};
+};
+
+echo().goodBoy(1);

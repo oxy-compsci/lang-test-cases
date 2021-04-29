@@ -1,0 +1,4 @@
+# Testing multiple variables
+int one = 5;
+int two = 7;
+print one + two;

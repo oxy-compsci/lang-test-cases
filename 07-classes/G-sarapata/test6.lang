@@ -1,0 +1,10 @@
+# Test while loops in classes
+var test = class {
+	var temp = func(a) {
+		while (a != 5) {
+			print a;
+			a = a + 1;
+		}	
+	};
+};
+test().temp(2);

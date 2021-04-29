@@ -1,7 +1,7 @@
-// Testing if is true 
+# Testing if is true 
 var test = 3;
 if (test < 5) {
-print true;
+print 1;
 } else {
-print false; 
+print 0; 
 }

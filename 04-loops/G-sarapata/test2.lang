@@ -1,4 +1,4 @@
-// Testing loop stopping at 5
+# Testing loop stopping at 5
 var test = 3;
 while (test != 5){
 print test;

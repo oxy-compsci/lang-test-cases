@@ -1,0 +1,12 @@
+# Testing if statements in classes
+var first = class {
+	var one = func(a) {
+		if ( a < 5) {
+			ret 1;
+		} else {
+			ret 0;
+		}
+	};
+};
+
+first().one(6);

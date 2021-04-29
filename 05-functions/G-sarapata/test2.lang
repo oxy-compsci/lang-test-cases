@@ -1,0 +1,5 @@
+# Testing runtime error returning outside functions
+var test = func(a) {
+ret 1;
+};
+ret 0;

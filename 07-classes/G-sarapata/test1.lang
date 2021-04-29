@@ -1,0 +1,8 @@
+# Testing using a class
+var test = class {
+	var temp = func(a) {
+		ret a * 2;
+	};
+};
+
+test().temp(3);

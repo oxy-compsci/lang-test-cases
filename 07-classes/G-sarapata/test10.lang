@@ -1,0 +1,6 @@
+var test = class {
+	var temp = func(a, b) {
+		ret a * b;
+	};
+};
+Test.temp(5, 6);

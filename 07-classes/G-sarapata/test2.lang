@@ -1,0 +1,11 @@
+# Testing two functions in one class
+var test = class {
+	var one = func(a) {
+		ret a + 2;
+	};
+	var two = func(b) {
+		ret b + 5;
+	};
+};
+
+test().one(6);

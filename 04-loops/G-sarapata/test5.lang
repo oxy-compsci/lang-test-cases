@@ -1,4 +1,4 @@
-// Testing print statement after if else 
+# Testing print statement after if else 
 var test = 5;
 if (test < 100) {
 test = test * 5;
