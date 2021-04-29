@@ -1,8 +1,8 @@
 (sequence
-    (declare func computer (function (parameters beep boop)
+    (declare computer (function (parameters beep boop)
         (sequence
             (print (lookup beep))
             (return (lookup boop)))))
-    (declare i 0)
-    (declare j 1)
+    (declare i 1)
+    (declare j 0)
     (print (call (lookup computer) (arguments (lookup i) (lookup j)))))
