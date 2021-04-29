@@ -1,1 +1,0 @@
-(sequence (declare Test (class (declare int num 0))) (declare object (call (lookup Test) (arguments))) (print (member (lookup object) num)))

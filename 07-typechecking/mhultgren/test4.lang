@@ -1,8 +1,0 @@
-# test typed member variables
-var Test = class {
-    int num = 0;
-};
-
-var object = Test();
-
-print object.num;
