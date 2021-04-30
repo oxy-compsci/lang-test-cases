@@ -6,7 +6,7 @@ var first = class {
 };
 var second = class {
 	var two = func(b) {
-		ret b + 1;
+		ret b;
 	};
 };
 print second().two(6);
