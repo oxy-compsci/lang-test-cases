@@ -1,0 +1,8 @@
+var n = 0;
+var foo = func(n) {
+    print n;
+    var n = 2;
+    print n;
+    ret n;
+};
+print foo(1);
