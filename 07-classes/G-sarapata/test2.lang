@@ -1,10 +1,12 @@
 # Testing two functions in one class
 var test = class {
 	var one = func(a) {
-		print a + 2;
+		if (a > 3) {
+			print 2;
+		}
 	};
 	var two = func(b) {
-		print b + 5;
+		print 5;
 	};
 };
 

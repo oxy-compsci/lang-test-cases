@@ -1,1 +1,1 @@
-(sequence (declare first (class (declare one (function (parameters a) (sequence (return (lookup a))))))) (declare second (class (declare two (function (parameters b) (sequence (return (lookup b) )))))) (print (call (member (call (lookup second) (arguments)) two) (arguments 6))))
+(sequence (declare first (class (declare one (function (parameters a) (sequence (return 4)))))) (declare second (class (declare two (function (parameters b) (sequence (if (== (lookup b) 6) (sequence (return 10)))))))) (print (call (member (call (lookup second) (arguments)) two) (arguments 6))))

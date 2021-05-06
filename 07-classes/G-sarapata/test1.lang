@@ -1,7 +1,7 @@
 # Testing using a class
 var test = class {
 	var temp = func(a) {
-		print a;
+		print 1;
 	};
 };
 

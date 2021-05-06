@@ -1,7 +1,7 @@
 # Testing if statements in classes
 var first = class {
 	var one = func(a) {
-		if ( a < 5) {
+		if (a < 5) {
 			print 1;
 		} else {
 			print 0;

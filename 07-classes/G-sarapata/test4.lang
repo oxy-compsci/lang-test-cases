@@ -1,12 +1,14 @@
 # Testing using both classes
 var first = class {
 	var one = func(a) {
-		print a * 2;
+		print 2 * 2;
 	};
 };
 var second = class {
 	var two = func(b) {
-		print b + 4;
+		if (b > 3) {
+			print b + 4;
+		}
 	};
 };
 
