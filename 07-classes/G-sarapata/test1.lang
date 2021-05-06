@@ -1,8 +1,8 @@
 # Testing using a class
 var test = class {
-	var temp = func(a) {
+	var temp = func(this) {
 		print 1;
 	};
 };
 
-test().temp(3);
+test().temp();

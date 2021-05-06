@@ -1,6 +1,6 @@
 # Test while loops in classes
 var test = class {
-	var temp = func(a) {
+	var temp = func(this) {
 		var count = 2;
 		while (count != 5) {
 			print count;
@@ -8,4 +8,4 @@ var test = class {
 		}	
 	};
 };
-test().temp(2);
+test().temp();

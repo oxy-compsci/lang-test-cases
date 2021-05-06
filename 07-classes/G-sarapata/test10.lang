@@ -1,5 +1,5 @@
 var test = class {
-	var temp = func(a, b) {
+	var temp = func(this, a, b) {
 		print a * b;
 	};
 };
