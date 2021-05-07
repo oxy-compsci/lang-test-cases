@@ -1,0 +1,7 @@
+var x = 0;
+if (x) {
+    print x;
+}
+print 0;
+
+#check print var

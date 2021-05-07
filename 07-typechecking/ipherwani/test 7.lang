@@ -1,0 +1,6 @@
+var a = 1;
+while (a <= 3) {
+print 4;
+a = a + 1;
+}
+#check loop type and var
