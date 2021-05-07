@@ -1,1 +1,1 @@
-(sequence (declare test (class (declare temp (function (parameters this a b) (sequence (if (< (lookup a) (lookup b)) (sequence (print 1)))))))) (call (member (lookup test) temp) (arguments 5 6)))
+(sequence (declare test (class (declare one (function (parameters this a) (sequence (if (< (lookup a) 3) (sequence (print 2)))))))) (call (member (call (lookup test) (arguments)) one) (arguments 5)))
