@@ -1,0 +1,2 @@
+# Test that there can be spaces in between signs
+print 3 + 3;

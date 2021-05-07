@@ -1,0 +1,2 @@
+# Testing divide by zero
+print (6 * 6) / (3 - 3);

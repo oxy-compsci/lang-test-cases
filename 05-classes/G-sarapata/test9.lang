@@ -1,0 +1,7 @@
+var echo = class {
+	var isGoodBoy = func(this) {
+		ret 1;
+	};
+};
+
+print echo().isGoodBoy();

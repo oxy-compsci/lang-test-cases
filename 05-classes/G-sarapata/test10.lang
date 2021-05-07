@@ -1,0 +1,9 @@
+var test = class {
+	var one = func(this, a) {
+		if (a < 3) {
+			print 2;
+		}
+	};
+};
+
+test().one(5);

@@ -1,0 +1,3 @@
+# Testing with variables 
+var test = 5;
+print test * (3 + 3);

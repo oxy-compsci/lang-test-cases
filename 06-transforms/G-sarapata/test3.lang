@@ -1,0 +1,2 @@
+# Testing negative numbers 
+print 20 - 15 - 15;

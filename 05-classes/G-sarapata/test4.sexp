@@ -1,0 +1,1 @@
+(sequence (declare first (class (declare one (function (parameters this) (sequence (print (* 2 2))))))) (declare second (class (declare two (function (parameters this b) (sequence (if (> (lookup b) 3) (sequence (print (+ 2 4))))))))) (call (member (call (lookup first) (arguments)) one) (arguments)) (call (member (call (lookup second) (arguments)) two) (arguments 2)))

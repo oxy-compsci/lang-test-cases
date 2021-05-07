@@ -1,0 +1,2 @@
+# Testing negative numbers with multiplication 
+print 5 * (1 - 11);

@@ -1,0 +1,9 @@
+# Testing print statement after if else 
+var test = 5;
+if (test < 100) {
+test = test * 5;
+print 1; 
+} else {
+print 0;
+}
+print test;

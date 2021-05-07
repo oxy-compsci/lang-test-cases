@@ -1,0 +1,1 @@
+(sequence (declare num1 11) (declare num2 1) (while (> (lookup num1) (lookup num2)) (sequence (print (lookup num1)) (assign (varloc num1) (- (lookup num1) 1)) (assign (varloc num2) (+ (lookup num2) 1)))))

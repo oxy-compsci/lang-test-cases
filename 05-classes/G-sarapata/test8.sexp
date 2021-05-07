@@ -1,0 +1,1 @@
+(sequence (declare echo (class (declare age (function (parameters this) (sequence (print 3)))))) (declare mocha (class (declare age (function (parameters this) (sequence (print 2)))))) (call (member (call (lookup echo) (arguments)) age) (arguments)) (call (member (call (lookup mocha) (arguments)) age) (arguments)))
