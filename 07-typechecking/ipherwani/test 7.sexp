@@ -1,1 +1,1 @@
-(sequence (declare a 1) (while (<= (lookup a) 3) (sequence (print 4) (assign (varloc a) (+ (lookup a) 1)))))
+(sequence (declare a 3) (declare int b 3) (declare func c (function (signature int) (parameters) (sequence (return 3)))) (print (== (lookup a) (lookup b))) (print (== (lookup a) (call (lookup c) (arguments)))) (print (== (lookup b) (call (lookup c) (arguments)))))

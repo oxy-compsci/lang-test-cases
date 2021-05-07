@@ -1,7 +1,7 @@
-var x = 0;
-if (x) {
-    print x;
-}
-print 0;
-
-#check print var
+func add = func(a)->int{
+    a = a + 1;
+};
+int b = 0;
+add(b);
+print b;
+#check int return type

@@ -1,6 +1,7 @@
-var a = 1;
-while (a <= 3) {
-print 4;
-a = a + 1;
-}
-#check loop type and var
+var a = 3;
+int b = 3;
+func c = func() -> int {ret 3;};
+
+print a == b;
+print a == c();
+print b == c();

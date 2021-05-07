@@ -1,3 +1,7 @@
-if (1){
-  print 49;
-}
+# math operation on typed ints
+int a = 12;
+int b = 12;
+int c = 12;
+int d = 13;
+int e = a+b+c+d;
+print e;

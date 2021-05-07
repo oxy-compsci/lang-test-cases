@@ -1,1 +1,6 @@
-(sequence (declare a (class (declare b 1) (declare c (function (parameters this) (sequence (declare this 12)))))) (declare object (call (lookup a) (arguments))) 
+(sequence
+    (declare a (class
+        (declare b 2)))
+    (declare func
+        (call (lookup a) (arguments)))
+    (print (* (lookup a) 2)))

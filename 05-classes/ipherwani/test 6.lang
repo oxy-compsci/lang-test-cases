@@ -1,6 +1,4 @@
-var a = class {
-
-};
+var a = class {};
 
 var object = a();
 print a;
