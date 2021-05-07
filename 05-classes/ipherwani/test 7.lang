@@ -1,0 +1,10 @@
+var a = class{
+    var b = func(){
+        print 12;
+    };
+};
+
+var x = a();
+x.b();
+
+#check argument mismatch error

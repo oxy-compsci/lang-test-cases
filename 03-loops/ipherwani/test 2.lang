@@ -3,3 +3,4 @@ var c = 1;
 if (b && c){
   print 3;
 }
+#check and operator

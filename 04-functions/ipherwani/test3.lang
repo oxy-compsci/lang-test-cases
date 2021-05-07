@@ -4,3 +4,4 @@ var a = func() {
   print c + d;
 };
 a();
+#check must and add within func

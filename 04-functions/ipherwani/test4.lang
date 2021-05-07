@@ -3,3 +3,5 @@ var a = func(x) {
 };
 
 print a(1) + a(2);
+
+#check adding funcs together

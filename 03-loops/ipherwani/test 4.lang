@@ -2,3 +2,4 @@ var a = 0;
 if (!a){
   print a;
 }
+#check not operator

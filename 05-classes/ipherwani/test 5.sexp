@@ -1,0 +1,1 @@
+(sequence (declare a (class (declare b 1) (declare c (function (parameters this) (sequence (return (call (class (declare d 2)) (arguments)))))))) (declare object (call (lookup a) (arguments))) (declare inner (call (member (lookup object) c) (arguments))) (print (member (lookup inner) d)))

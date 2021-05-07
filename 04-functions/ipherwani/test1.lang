@@ -5,3 +5,4 @@ var f = func(){
 };
 f();
 f();
+#check func call

@@ -1,7 +1,8 @@
-# check inner closure could access outer variables
 var a = 1;
 while (a <= 10){
   print a+;
   a = a+1;
   }
 }
+#check inner could access outer var
+

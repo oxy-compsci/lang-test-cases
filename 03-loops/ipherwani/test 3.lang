@@ -4,3 +4,4 @@ if (a == 1) {
     print a;
 }
 print a; 
+#check calling var in and out of closure

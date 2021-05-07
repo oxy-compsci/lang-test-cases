@@ -3,3 +3,4 @@ while (a <= 3) {
 print 4;
 a = a + 1;
 }
+#check while loop with less than operator

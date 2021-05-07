@@ -1,0 +1,10 @@
+var a = func() {
+    var b = func() {
+        print 0;
+    };
+    ret b;
+};
+
+var c = a();  
+
+#check nothing prints, b never called
