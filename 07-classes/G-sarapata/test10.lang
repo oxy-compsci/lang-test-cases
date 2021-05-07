@@ -1,6 +1,8 @@
 var test = class {
 	var temp = func(this, a, b) {
-		print a * b;
+		if (a < b) {
+			print 1;
+		}
 	};
 };
-Test.temp(5, 6);
+test.temp(5, 6);
