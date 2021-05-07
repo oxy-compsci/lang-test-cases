@@ -1,1 +1,2 @@
 print 1998/(4 * 3);
+#Testing for division truncating

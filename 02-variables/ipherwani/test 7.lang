@@ -1,2 +1,4 @@
 var word = "no";
 print word;
+
+#testing to not set var equal to string
