@@ -1,7 +1,6 @@
-# Testing for semicolon
 var test = class {
-	var temp = func(a) {
-		print a;
+	var temp = func(this, a) {
+		print 1;
 	};
-}
+};
 test().temp(5);
