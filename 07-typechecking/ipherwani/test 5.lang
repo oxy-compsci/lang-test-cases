@@ -1,8 +1,6 @@
-var a = func (i, j){
-    print i;
-    ret j;
+# test typed function
+func test = func(int a) {
+    print a;
 };
 
-var x = 1;
-var y = 0;
-print computer(x, y);
+test(12);

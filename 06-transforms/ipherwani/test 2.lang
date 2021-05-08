@@ -1,4 +1,3 @@
-var a = 5;
-var b = 2;
-print 4 + a + b;
-#check order of var
+var a = 0;
+
+print a * (11 / 3);

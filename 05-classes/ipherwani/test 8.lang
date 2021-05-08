@@ -1,5 +1,10 @@
-var a = class{
-    var b = 2;
+var a = class {
+  var second = func(this){
+    ret 2;
+  };
 };
-var func = a();
-print fun_times * 2;
+
+var result = first().second();
+print result;
+
+#check return

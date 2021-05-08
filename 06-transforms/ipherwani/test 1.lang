@@ -1,3 +1,2 @@
-var a = 0;
-var b = 4 + a - 5;
-print b;
+# test basic add/sub transform
+print 1+2+3;
