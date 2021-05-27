@@ -1,1 +1,0 @@
-(sequence (declare test) (print (lookup test)))
