@@ -1,0 +1,9 @@
+var x = 5;
+var y = func(){
+  x = x - 1;
+  print x;
+  if (x != 0){
+    y();
+  }
+};
+y();

@@ -1,0 +1,7 @@
+var x = class
+{
+};
+
+print x;
+
+#print class

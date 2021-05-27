@@ -1,0 +1,11 @@
+var person = func(n) 
+{
+    ret class 
+    {
+        var age = n;
+    }();
+};
+
+var a = person(10);
+print a.age;
+#class in function

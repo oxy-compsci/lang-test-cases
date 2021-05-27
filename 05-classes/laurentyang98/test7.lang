@@ -1,0 +1,7 @@
+var a = 0;
+var b = class 
+{
+    var a = 1;       
+};
+print a;
+#defined variable

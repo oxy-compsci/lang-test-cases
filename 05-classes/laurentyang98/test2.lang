@@ -1,0 +1,11 @@
+var x = class
+{
+
+};
+
+if (x)
+{
+	print 1;
+}
+
+#if in class

@@ -1,0 +1,5 @@
+var a = 2;
+print a;
+var b = a;
+print b;
+#copy variable

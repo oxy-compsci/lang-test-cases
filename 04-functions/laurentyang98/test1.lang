@@ -1,0 +1,8 @@
+var printer = func(n)
+{
+    print n; 
+    ret n+n;
+}; 
+var a = printer (5); 
+print a;
+#basic function

@@ -1,0 +1,6 @@
+var i = 5;
+if (5 / (2 + 3) == 1) 
+{
+    print i;
+}
+#transform in if

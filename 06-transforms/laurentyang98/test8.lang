@@ -1,0 +1,6 @@
+var a = func (x)
+{
+  print (x + 1 + (2 * 3));
+};
+a(1 + (2 * 3));
+#functions with trnasform

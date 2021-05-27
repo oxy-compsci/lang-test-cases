@@ -1,0 +1,9 @@
+var a = 0;
+var x = class 
+{
+    var a = 1;
+};
+var b = x();
+print a;
+print b.a;
+#function calls

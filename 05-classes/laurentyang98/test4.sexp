@@ -1,0 +1,1 @@
+(sequence (declare a (class (declare b 5))) (assign (memloc (varloc a) b) 6) (print (member (lookup a) b)))

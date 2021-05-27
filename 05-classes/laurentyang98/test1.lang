@@ -1,0 +1,6 @@
+var people = class {
+  var leg = 2;
+};
+
+print people().leg;
+#basic class call

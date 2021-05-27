@@ -1,0 +1,7 @@
+var a = func() 
+{
+  ret 1;
+};
+var b = a();
+print b;
+#basic return and reassignment

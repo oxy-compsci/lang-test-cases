@@ -1,0 +1,6 @@
+var a = func(x) 
+{
+    ret x;
+};
+print a(1) + a(2);
+#Funtion with operation
