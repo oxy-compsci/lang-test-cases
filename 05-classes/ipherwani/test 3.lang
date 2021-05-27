@@ -1,0 +1,9 @@
+var a = class{
+	var b = func(c){
+		print c;
+	};
+};
+
+a().b();
+
+#check this can be anything

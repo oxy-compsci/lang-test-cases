@@ -1,0 +1,1 @@
+(sequence (declare a 20) (print (+ (* 0 (lookup a)) 13)))

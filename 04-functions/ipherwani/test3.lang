@@ -1,0 +1,7 @@
+var a = func() {
+  var c = 2;
+  var d = 2 * c;
+  print c + d;
+};
+a();
+#check must and add within func

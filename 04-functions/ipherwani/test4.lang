@@ -1,0 +1,7 @@
+var a = func(x) {
+    ret x + 2;
+};
+
+print a(1) + a(2);
+
+#check adding funcs together

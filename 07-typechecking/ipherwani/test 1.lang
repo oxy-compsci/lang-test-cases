@@ -1,0 +1,4 @@
+int a = 12;
+func a = func(){};
+
+#check var already defined

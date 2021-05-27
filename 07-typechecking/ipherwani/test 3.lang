@@ -1,0 +1,5 @@
+int a = 1;
+func b = func(){};
+a = b;
+
+#check error mismatch
