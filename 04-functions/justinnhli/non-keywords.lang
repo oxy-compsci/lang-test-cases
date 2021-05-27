@@ -1,0 +1,4 @@
+var not_special = func(this, self, null, none) {
+    ret this * self * null * none;
+};
+print not_special(1, 2, 3, 4);

@@ -1,0 +1,6 @@
+var foo = func(a, b) {
+    print a / b;
+    ret func() {};
+}
+# should give type mismatch
+func(var a, int foo(1, 2), func foo(1, 0));

@@ -1,0 +1,4 @@
+var foo = func(a, b) {
+    ret a / b;
+};
+foo(foo(1, 0));

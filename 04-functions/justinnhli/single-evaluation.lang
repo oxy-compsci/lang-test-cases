@@ -1,0 +1,16 @@
+var echo = func(n) {
+    print n;
+    ret n;
+};
+print echo(1) == echo(2);
+print echo(1) != echo(2);
+print echo(1) && echo(2);
+print echo(0) || echo(1);
+print echo(1) < echo(2);
+print echo(1) > echo(2);
+print echo(1) <= echo(2);
+print echo(1) >= echo(2);
+print echo(1) + echo(2);
+print echo(1) - echo(2);
+print echo(1) * echo(2);
+print echo(1) / echo(2);
