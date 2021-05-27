@@ -1,4 +1,4 @@
-var a = class {
+var first = class {
   var second = func(this){
     ret 2;
   };
