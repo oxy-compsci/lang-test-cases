@@ -1,6 +1,6 @@
-var foo = func(a, b) {
+var foo = func(int a, int b) {
     print a / b;
     ret func() {};
-}
+};
 # should give type mismatch
-func(var a, int foo(1, 2), func foo(1, 0));
+foo(foo(1, 2), foo(1, 0));
