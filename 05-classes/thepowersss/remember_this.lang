@@ -1,0 +1,5 @@
+# should give an argument mismatch if you're missing the parameter 'this' in func a
+var a = class {
+    var a = func() {};
+};
+print a.a();

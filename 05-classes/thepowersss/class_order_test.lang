@@ -1,0 +1,11 @@
+# checking variable declaration/assignment order in class a
+var a = class {
+    var main = func (this) {
+        var c = 5;
+        a = c;
+        print a;
+    };
+    var a = 1;
+};
+a.main();
+print a.a;

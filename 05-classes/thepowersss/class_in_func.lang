@@ -1,0 +1,8 @@
+# accessing class b with function a
+var a = func() {
+    var b = class {
+        var c = 12;
+    };
+    ret b.c;
+};
+print a();

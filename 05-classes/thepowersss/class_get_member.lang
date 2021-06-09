@@ -1,0 +1,7 @@
+# basic test to get a member through member variable and member function access
+var a = class {
+    var trait = 3;
+    var get = func(this) { ret this.trait; };
+};
+print a.get();
+print a.trait;

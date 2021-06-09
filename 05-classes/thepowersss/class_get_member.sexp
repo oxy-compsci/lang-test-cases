@@ -1,0 +1,1 @@
+(sequence (declare a (class (declare trait 3) (declare get (function (parameters this) (sequence (return (member (lookup this) trait))))))) (print (call (member (lookup a) get) (arguments))) (print (member (lookup a) trait)))

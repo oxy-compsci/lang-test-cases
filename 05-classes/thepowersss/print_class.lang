@@ -1,0 +1,3 @@
+# printing a class should just give 'class'
+var a = class {};
+print a;
