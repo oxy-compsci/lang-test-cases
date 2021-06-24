@@ -2,4 +2,4 @@
 var a = class {
     var a = func() {};
 };
-print a.a();
+print a().a();

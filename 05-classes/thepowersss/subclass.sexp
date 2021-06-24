@@ -1,1 +1,1 @@
-(sequence (declare a (class (declare c 0) (declare b (class (declare c 1))))) (print (member (lookup a) c)) (print (member (member (lookup a) b) c)))
+(sequence (declare a (class (declare c 0) (declare b (class (declare c 1))))) (print (member (call (lookup a) (arguments)) c)) (print (member (call (member (call (lookup a) (arguments)) b) (arguments)) c)))

@@ -3,5 +3,5 @@ var a = class {
     var trait = 3;
     var get = func(this) { ret this.trait; };
 };
-print a.get();
-print a.trait;
+print a().get();
+print a().trait;

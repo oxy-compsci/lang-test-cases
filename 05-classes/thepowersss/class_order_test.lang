@@ -7,5 +7,5 @@ var a = class {
     };
     var a = 1;
 };
-a.main();
-print a.a;
+a().main();
+print a().a;

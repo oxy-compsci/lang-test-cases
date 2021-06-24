@@ -1,1 +1,1 @@
-(sequence (declare a (class (declare a (function (parameters) (sequence))))) (print (call (member (lookup a) a) (arguments))))
+(sequence (declare a (class (declare a (function (parameters) (sequence))))) (print (call (member (call (lookup a) (arguments)) a) (arguments))))

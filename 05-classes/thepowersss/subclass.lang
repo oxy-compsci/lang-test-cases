@@ -6,5 +6,5 @@ var a = class {
         var c = 1;
     };
 };
-print a.c;
-print a.b.c;
+print a().c;
+print a().b().c;
