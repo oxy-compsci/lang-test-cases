@@ -1,0 +1,6 @@
+#making sure var can be assigned whatever 
+var a = 1;
+a = func(x){print x;};
+a(1);
+a = 2;
+print a;

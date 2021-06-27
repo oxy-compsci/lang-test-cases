@@ -1,0 +1,7 @@
+#testing multiple parameters and then duplicate parameters 
+func(a, b, c){
+    print a + b + c;
+}(1,2,3);
+var a = func(b, b){
+    ret b;
+}(2,3);

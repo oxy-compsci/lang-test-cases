@@ -1,0 +1,15 @@
+#testing while loop breaking with return then calling a non-function 
+var a = 0;
+print func(){
+    while(a < 10){
+        if(a < 9){
+            print a;
+            a = a + 1;
+        }
+        else{
+            print 100;
+            ret a;
+        }
+    }
+}();
+a();

@@ -1,0 +1,10 @@
+#accessing a member variable and calling a member function
+var x = class {
+    var y = 10;
+    var z = func(this, a){
+        print a;
+    };
+};
+
+print x.y;
+x.z(50);

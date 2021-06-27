@@ -1,0 +1,1 @@
+(sequence (declare a 1) (declare b 2) (if (< (lookup a) (lookup b)) (sequence (print (lookup a)))) (if (> (lookup a) (lookup b)) (sequence (print (lookup a)))))

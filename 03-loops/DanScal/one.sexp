@@ -1,0 +1,1 @@
+(sequence (declare a 1) (assign (varloc a) 2) (if (== (lookup a) 2) (sequence (print (lookup a)))))

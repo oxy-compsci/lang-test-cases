@@ -1,0 +1,2 @@
+#Some basic mult/div folding
+print 1 * 2 / 3 * 4;

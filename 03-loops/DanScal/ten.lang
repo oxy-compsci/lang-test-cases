@@ -1,0 +1,9 @@
+#testing declaration inside an if statement 
+var a = 2;
+if(a == 2){
+    var a = 3;
+    print a;
+}
+if(var b == 3){
+    print 42;
+}

@@ -1,0 +1,4 @@
+#delcaring a class with member variables 
+var a = class {
+    var b = 1;
+};

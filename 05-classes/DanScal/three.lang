@@ -1,0 +1,6 @@
+#class declaration with member function 
+var a = class {
+    var b = func() {
+        print 10;
+    };
+};

@@ -1,0 +1,6 @@
+#testing func input checking 
+func a = func(func x) -> func {
+    ret x;
+};
+func b = func(){};
+print a(b);

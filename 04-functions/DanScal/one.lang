@@ -1,0 +1,4 @@
+#basic function declaration 
+func(a) {
+    print a;
+}(2);

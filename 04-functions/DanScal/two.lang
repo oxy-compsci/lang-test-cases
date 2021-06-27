@@ -1,0 +1,5 @@
+#basic function declaration as a variable 
+var x = func(a) {
+    print a;
+};
+x(50);

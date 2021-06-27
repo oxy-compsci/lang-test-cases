@@ -1,0 +1,8 @@
+#making sure that the scope is accurate (the argument a is different than the variable a) and also printing return value
+var a = 100;
+var x = func(a) {
+    print a;
+    ret a;
+};
+x(1);
+print x(50);

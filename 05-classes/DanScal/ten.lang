@@ -1,0 +1,5 @@
+#checking that it prints what it's supposed to for empty classes and objects 
+var a = class {};
+var b = a();
+print a;
+print b;

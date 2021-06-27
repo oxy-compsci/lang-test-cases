@@ -1,0 +1,9 @@
+#testing more basic comparison operators 
+var a = 1; var b = 2;
+while(a <= b){
+    print 3;
+    a = a + 1;
+}
+if(a >= b){
+    print 4;
+}

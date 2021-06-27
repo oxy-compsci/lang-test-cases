@@ -1,0 +1,1 @@
+(sequence (declare a (class)) (print (+ (lookup a) 10)))

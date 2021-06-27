@@ -1,0 +1,5 @@
+#checking the truthiness of a class
+var a = class{};
+if(a){
+    print 1;
+}

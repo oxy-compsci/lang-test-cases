@@ -1,0 +1,1 @@
+(sequence (declare a 1) (declare b 1) (if (|| (+ 1 (* 2 7)) 0) (sequence (print 1) (while (&& (lookup a) (lookup b)) (sequence (print (lookup a)) (print (lookup b)) (assign (varloc a) 0))))))

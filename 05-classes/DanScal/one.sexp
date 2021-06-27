@@ -1,0 +1,1 @@
+(sequqence (declare a (class)))

@@ -1,0 +1,8 @@
+#testing the truthiness of a function
+var a = func(){};
+if(a){
+    print 1;
+}
+if(!a){
+    print 2;
+}

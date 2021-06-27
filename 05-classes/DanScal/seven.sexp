@@ -1,0 +1,1 @@
+(sequence (declare a (class)) (print (member (lookup a) b)))

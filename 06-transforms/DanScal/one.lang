@@ -1,0 +1,4 @@
+#Testing that nothing changes for mult/div with a variable
+var a = 1;
+var b = 2 * a;
+print a / b;

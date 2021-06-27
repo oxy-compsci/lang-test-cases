@@ -1,0 +1,4 @@
+#Testing that nothing changes for add/sub with a variable
+var x = 50;
+var y = 3 + x;
+print x - y;

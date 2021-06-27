@@ -1,0 +1,1 @@
+(sequence (declare x (class (declare y 10) (declare z (function (parameters this a) (sequence (print (lookup a))))))) (print (member (lookup x) y)) (call (member (lookup x) z) (arguments 50)))

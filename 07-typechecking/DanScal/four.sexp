@@ -1,0 +1,1 @@
+(sequence (declare func x (function (signature func func func) (parameters a b) (sequence (return 1)))) (call (lookup x) (arguments 1 2)))

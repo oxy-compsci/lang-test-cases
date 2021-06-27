@@ -1,0 +1,1 @@
+(sequence (declare a 0) (print (call (function (parameters) (sequence (while (< (lookup a) 10) (sequence (ifelse (< (lookup a) 9) (sequence (print (lookup a)) (assign (varloc a) (+ (lookup a) 1))) (sequence (print 100) (return (lookup a)))))))) (arguments))) (call (lookup a) (arguments)))

@@ -1,0 +1,3 @@
+#folding w/variables and constants 
+var a = 10;
+print 3 - 2 / 5 + a;

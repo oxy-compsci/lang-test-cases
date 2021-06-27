@@ -1,0 +1,10 @@
+#testing random spacing and returning outside of a function
+var           a     = 
+
+ func   (          s)
+    {
+    print      ( s + 1)     ;
+    ret s *         
+    10;
+        }(1);
+ret a;

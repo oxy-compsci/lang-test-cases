@@ -1,0 +1,4 @@
+#testing argument mismatch
+func(a,b){
+    print a + b;
+}(1);

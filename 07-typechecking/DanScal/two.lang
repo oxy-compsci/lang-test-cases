@@ -1,0 +1,4 @@
+#basic function typing 
+func a = func(int x, int y) -> int {
+    ret 1;
+};

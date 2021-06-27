@@ -1,0 +1,4 @@
+#checking only one of the parameters typed 
+func a = func(int x, y) {
+    ret x;
+};

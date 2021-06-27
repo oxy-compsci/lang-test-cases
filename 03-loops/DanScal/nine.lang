@@ -1,0 +1,10 @@
+#testing && and ||
+var a = 1; var b = 1;
+if(1+2*7 || 0){
+    print 1;
+    while(a && b){
+        print a;
+        print b;
+        a = 0;
+    }
+}

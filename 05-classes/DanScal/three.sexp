@@ -1,0 +1,1 @@
+(sequence (declare a (class (declare b (function (parameters) (sequence (print 10)))))))

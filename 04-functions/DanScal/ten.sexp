@@ -1,0 +1,1 @@
+(sequence (call (function (parameters a b) (sequence (print (+ (lookup a) (lookup b))))) (arguments 1)))

@@ -1,0 +1,2 @@
+#testing basic ifelse 
+var a = 1; a = 2; if(a == 2) {print a;} else {print 1;}

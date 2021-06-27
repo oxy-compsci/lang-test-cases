@@ -1,0 +1,4 @@
+#checking to make sure nothing happens with comp operators 
+if(1 + 2 >= 3){
+    print 10;
+}

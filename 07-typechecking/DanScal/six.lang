@@ -1,0 +1,2 @@
+#making sure an old function declaration still works 
+var a = func (){};

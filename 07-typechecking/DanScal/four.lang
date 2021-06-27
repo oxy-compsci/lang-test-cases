@@ -1,0 +1,5 @@
+#type mismatch return value 
+func x = func(a, b) -> func {
+    ret 1;
+};
+x(1,2);

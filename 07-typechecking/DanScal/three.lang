@@ -1,0 +1,4 @@
+#checking to make sure untyped gets typed 
+func a = func(x, y) -> var {
+    ret x;
+};
