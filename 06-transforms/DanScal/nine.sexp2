@@ -1,1 +1,1 @@
-(sequence (declare a 10) (print (+ (lookup a) 3))
+(sequence (declare a 10) (print (+ (lookup a) 3)))
