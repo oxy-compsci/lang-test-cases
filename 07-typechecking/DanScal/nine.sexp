@@ -1,1 +1,1 @@
-(sequence (declare a 1) (assign (varloc a) function (parameters x) (sequence (print (lookup x)))) (call (lookup a) (arguments 1)) (assign (varloc a) 2) (print (lookup a)))
+(sequence (declare a 1) (assign (varloc a) (function (parameters x) (sequence (print (lookup x))))) (call (lookup a) (arguments 1)) (assign (varloc a) 2) (print (lookup a)))

@@ -1,4 +1,4 @@
-#function declaration with both member variables and functions
+#class declaration with both member variables and functions
 var a = class {
     var b = 1;
     var c = 2;
@@ -6,4 +6,4 @@ var a = class {
         print 50;
     };
 };
-c.d();
+a.d();

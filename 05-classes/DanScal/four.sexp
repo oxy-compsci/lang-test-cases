@@ -1,1 +1,1 @@
-(sequence (declare a (class (declare b 1) (declare c 2) (declare d (function (parameters this) (sequence (print 50)))))) (call (member (lookup c) d) (arguments)))
+(sequence (declare a (class (declare b 1) (declare c 2) (declare d (function (parameters this) (sequence (print 50)))))) (call (member (lookup a) d) (arguments)))

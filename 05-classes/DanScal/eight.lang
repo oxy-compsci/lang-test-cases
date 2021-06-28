@@ -1,3 +1,3 @@
 #error math operations on a function (class)
-var a = class {}
+var a = class {};
 print a + 10;

@@ -1,1 +1,1 @@
-(sequqence (declare a (class)))
+(sequence (declare a (class)))

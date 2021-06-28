@@ -1,1 +1,1 @@
-(sequence (declare a 1) declare b (* 2 (lookup a)) (print (/ (lookup a) (lookup b))))
+(sequence (declare a 1) (declare b (* 2 (lookup a))) (print (/ (lookup a) (lookup b))))
