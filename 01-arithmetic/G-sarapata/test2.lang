@@ -1,0 +1,2 @@
+# Test that variables must be defined
+print3;

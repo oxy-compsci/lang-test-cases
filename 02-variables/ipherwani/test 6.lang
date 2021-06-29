@@ -1,0 +1,4 @@
+var 62a = 2;
+var b82 = 2;
+print 62a + b82;
+#testing for variable declaration error, cannot use numbers in variable

@@ -1,0 +1,1 @@
+(sequence (declare num (+ 9 1)) (print (* (lookup num) 9)))

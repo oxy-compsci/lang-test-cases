@@ -1,0 +1,4 @@
+# Testing that a variable can't be declared twice
+var test = 9;
+var test = 10*2;
+print test;

@@ -1,0 +1,5 @@
+int a = 100;
+int b = 5;
+var test = 4;
+print test;
+print a / b;

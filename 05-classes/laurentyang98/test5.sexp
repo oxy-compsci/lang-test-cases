@@ -1,0 +1,1 @@
+(sequence (declare a (class (declare num 4))) (declare b (class (declare num 4))) (print (== (lookup a) (lookup b))) (print (== (lookup a) (lookup b))) (print (== (member (call (lookup a) (arguments)) num) (member (call (lookup b) (arguments)) num))))

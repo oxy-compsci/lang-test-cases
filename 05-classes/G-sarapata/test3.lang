@@ -1,0 +1,14 @@
+# Testing using first of two classes
+var first = class {
+	var one = func(this) {
+		ret 4;
+	};
+};
+var second = class {
+	var two = func(this, b) {
+		if (b == 6) {
+			ret 10;
+		}
+	};
+};
+print second().two(6);

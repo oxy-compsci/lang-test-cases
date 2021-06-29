@@ -1,0 +1,6 @@
+var a = func() 
+{
+  print 1;
+};
+a(2);
+#incorrect argument

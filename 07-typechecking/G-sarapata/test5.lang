@@ -1,0 +1,4 @@
+# test that you can still use var
+var one = 5;
+var two = 6;
+print one * two;

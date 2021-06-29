@@ -1,0 +1,6 @@
+var test = class {
+	var temp = func(this, a) {
+		print 1;
+	};
+};
+test().temp(5);

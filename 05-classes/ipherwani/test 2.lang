@@ -1,0 +1,5 @@
+#check undefined member error
+
+var a = class{};
+var b = a();
+print b.c;

@@ -1,0 +1,1 @@
+(sequence (declare a (function (parameters n) (sequence (return (call (class (declare num (lookup n))) (arguments)))))) (declare x (call (lookup a) (arguments 1))) (print (+ (member (lookup x) num) 1)))

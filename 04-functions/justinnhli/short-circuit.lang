@@ -1,0 +1,18 @@
+var true = func() {
+    print 111;
+    ret 1;
+};
+var false = func() {
+    print 0-111;
+    ret 0;
+};
+
+print true() && true(); # 111; 111; 1;
+print true() && false(); # 111; -111; 0;
+print false() && true(); # -111; 0;
+print false() && false(); # -111; 0; 
+
+print true() || true(); # 111; 1;
+print true() || false(); # 111; 1;
+print false() || true(); # -111; 111; 1;
+print false() || false(); # -111; -111; 0; 

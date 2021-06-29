@@ -1,0 +1,10 @@
+var first = class {
+  var second = func(this){
+    ret 2;
+  };
+};
+
+var result = first().second();
+print result;
+
+#check return

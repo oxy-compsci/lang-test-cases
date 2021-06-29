@@ -1,0 +1,4 @@
+var no = 1;
+var yes = 2;
+Print no + yes;
+#testing for upper case P in print, syntax error

@@ -1,0 +1,2 @@
+# testing same numbers on both sides
+print (1 + 2 + 3 + 4) / (1 + 2 + 3 + 4);

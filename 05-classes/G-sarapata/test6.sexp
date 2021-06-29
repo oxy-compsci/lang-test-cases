@@ -1,0 +1,1 @@
+(sequence (declare test (class (declare temp (function (parameters this) (sequence (declare count 2) (while (!= (lookup count) 5) (sequence (print (lookup count)) (assign (varloc count) (+ (lookup count) 1))))))))) (call (member (call (lookup test) (arguments)) temp) (arguments)))

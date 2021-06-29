@@ -1,0 +1,4 @@
+int echo = 3;
+int mocha = 2;
+print mocha + echo;
+print (mocha + echo) * echo;

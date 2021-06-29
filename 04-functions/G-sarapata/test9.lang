@@ -1,0 +1,9 @@
+# Testing using both functions
+var one = func(a) {
+ret a + 3;
+};
+var two = func(b) {
+ret b * 9;
+};
+print one(6);
+print two(9);

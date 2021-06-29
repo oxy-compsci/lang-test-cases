@@ -1,0 +1,7 @@
+var a = func(x, y) 
+{
+  print x;
+  print y;
+};
+a(1, 2);
+#multiple parameters

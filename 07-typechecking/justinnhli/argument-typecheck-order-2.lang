@@ -1,0 +1,6 @@
+var foo = func(int a, int b) {
+    print a / b;
+    ret func() {};
+};
+# should give divide by zero
+foo(foo(1, 0), foo(1, 2));

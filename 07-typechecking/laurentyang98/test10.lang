@@ -1,0 +1,7 @@
+int a = 1;
+func b = func()
+{
+
+};
+print a+b;
+#operation on typed variable and typed function

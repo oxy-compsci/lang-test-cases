@@ -1,0 +1,10 @@
+var a = func(n)
+{
+    ret class 
+    {
+        var num = n;
+    }();
+};
+
+var x = a(1);
+print x.num + 1;

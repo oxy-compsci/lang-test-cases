@@ -1,0 +1,5 @@
+var foo = func(a, a) {
+    print a;
+};
+print 1;
+foo(1, 2);

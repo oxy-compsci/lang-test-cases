@@ -1,0 +1,5 @@
+var a = 9 * 9 * 9 * 9 * 1;
+var b = a/2;
+print a + b;
+
+# should print 9841, testing var set to variable with math applied

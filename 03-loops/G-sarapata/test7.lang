@@ -1,0 +1,8 @@
+# Extra if else statements with two variables
+var num1 = 2;
+var num2 = 5;
+if (num1 < num2) {
+print 1;
+} else {
+print 0;
+}

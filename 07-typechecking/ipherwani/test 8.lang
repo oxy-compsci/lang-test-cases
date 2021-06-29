@@ -1,0 +1,3 @@
+int a = 12;
+func a = func(){};
+#check var declared as int and func

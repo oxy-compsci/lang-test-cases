@@ -1,0 +1,14 @@
+var a = class 
+{
+    var num = 4;
+};
+
+var b = class 
+{
+    var num = 4;
+};
+
+print a == b;                          
+print a == b;                          
+print a().num == b().num;     
+#class comparison

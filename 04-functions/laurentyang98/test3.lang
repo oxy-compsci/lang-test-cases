@@ -1,0 +1,11 @@
+var test = func() 
+{
+    ret 1;
+};
+
+if (test()) 
+{  
+    print 1;
+}
+
+#function in if

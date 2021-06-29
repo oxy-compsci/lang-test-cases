@@ -1,0 +1,6 @@
+var test = func() -> int 
+{
+    ret func() {};
+};
+
+test();

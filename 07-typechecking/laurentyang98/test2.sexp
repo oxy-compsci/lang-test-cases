@@ -1,0 +1,1 @@
+(sequence (declare class val (+ 1 2)))

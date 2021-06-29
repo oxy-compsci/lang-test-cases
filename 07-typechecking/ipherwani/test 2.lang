@@ -1,0 +1,4 @@
+func a = func(int b, c) {
+};
+
+#test params created

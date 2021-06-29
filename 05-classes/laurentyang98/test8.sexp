@@ -1,0 +1,1 @@
+(sequence (declare person (function (parameters n) (sequence (return (call (class (declare age (lookup n))) (arguments)))))) (declare a (call (lookup person) (arguments 10))) (print (member (lookup a) age)))

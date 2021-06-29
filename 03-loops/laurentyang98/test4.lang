@@ -1,0 +1,8 @@
+var a = 0;
+
+if (a) {
+    print a;
+} else {
+    print 2;
+}
+#basic if-else statement

@@ -1,0 +1,7 @@
+func add = func(a)->int{
+    a = a + 1;
+};
+int b = 0;
+add(b);
+print b;
+#check int return type

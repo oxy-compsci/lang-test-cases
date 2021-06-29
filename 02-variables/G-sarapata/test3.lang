@@ -1,0 +1,4 @@
+# Test to make sure you can change the variable value
+var test = 9;
+test = 9 * 2;
+print test;

@@ -1,0 +1,1 @@
+(sequence (declare people (class (declare leg 2))) (print (member (call (lookup people) (arguments)) leg)))

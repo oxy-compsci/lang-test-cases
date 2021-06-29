@@ -1,0 +1,6 @@
+var n = 0;
+var foo = func(n) {
+    var n = 2;
+    ret n;
+};
+foo(1);

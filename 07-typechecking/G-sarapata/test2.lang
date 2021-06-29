@@ -1,0 +1,4 @@
+# Testing assigning variables
+int test = 7;
+test = 8;
+print test;

@@ -1,0 +1,4 @@
+# Testing declaring a variable as a variable
+var num1 = 9 + 9;
+var num2 = num1;
+print num2;

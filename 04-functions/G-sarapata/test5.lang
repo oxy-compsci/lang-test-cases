@@ -1,0 +1,6 @@
+# Testing returning outside functions
+var test = func(a) {
+ret 9 * a;
+};
+ret test(3);
+print 10 * test(3);

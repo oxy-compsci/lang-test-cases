@@ -1,0 +1,9 @@
+# Testing longer function
+var test = func(a, b) {
+var mult = a * b;
+var div = a / b;
+var add = a + b;
+var sub = a - b;
+ret mult + div + add + sub;
+};
+print test(4, 2);
