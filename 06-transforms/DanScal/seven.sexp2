@@ -1,7 +1,1 @@
-(sequence 
-    (declare x 1) 
-    (declare y 2) 
-    (print 
-        (+ 
-            (+ (lookup x) 3) 
-            (* (lookup y) 2))))
+(sequence (declare x 1) (declare y 2) (print (+ (+ (lookup x)) (* 2 (lookup y)) 3)))
