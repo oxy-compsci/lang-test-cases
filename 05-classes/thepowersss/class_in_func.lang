@@ -3,6 +3,6 @@ var a = func() {
     var b = class {
         var c = 12;
     };
-    ret b.c;
+    ret b().c;
 };
 print a();
