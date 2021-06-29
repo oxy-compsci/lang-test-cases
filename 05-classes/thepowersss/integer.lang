@@ -24,7 +24,7 @@ var Integer = func () {
 
 var a = Integer().create(3);
 var b = Integer().create(6);
-print a().add(b);
-print a().sub(b);
-print a().mul(b);
-print b().div(a);
+print a.add(b);
+print a.sub(b);
+print a.mul(b);
+print b.div(a);
