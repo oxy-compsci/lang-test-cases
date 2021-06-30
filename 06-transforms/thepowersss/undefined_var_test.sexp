@@ -1,0 +1,1 @@
+(sequence (print (- (- (lookup n) 10) (lookup n))))

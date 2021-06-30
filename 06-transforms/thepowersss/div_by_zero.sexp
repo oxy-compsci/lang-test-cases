@@ -1,0 +1,1 @@
+(sequence (declare a (/ 2 (* 10 0))))

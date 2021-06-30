@@ -1,0 +1,1 @@
+(sequence (declare b 1) (print (+ (+ (lookup b) (* 2 (lookup b))) 1)) (print (+ (+ (lookup b) (* (lookup b) 2)) 1)))
