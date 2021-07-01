@@ -1,0 +1,5 @@
+# int against var and var against int
+var add = func(var a, int b) -> int {ret a+b;};
+int a1 = 3;
+var a2 = 4;
+print add(a1, a2);

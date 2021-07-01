@@ -1,0 +1,4 @@
+# func b evaluates to 3, which is an int and can be safely used in func a
+func a = func(int a) {ret a;};
+func b = func(){ret 3;};
+print a(b());

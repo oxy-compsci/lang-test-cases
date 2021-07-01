@@ -1,0 +1,1 @@
+(sequence (declare func add (function (signature int int int) (parameters a b) (sequence (return (+ (lookup a) (lookup b)))))) (declare int a1 3) (declare int a2 4) (print (call (lookup add) (arguments (lookup a1) (lookup a2)))))

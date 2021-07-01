@@ -1,0 +1,7 @@
+# alternating between var and func to check correct s-exp
+# comp = composite function
+var comp = func(func a, func b, int c) {ret a(b(c)); };
+func a = func(z) {ret 2 * z;};
+var b = func(z) {ret 2 - z;};
+int c = 3;
+print comp(a,b,c);
