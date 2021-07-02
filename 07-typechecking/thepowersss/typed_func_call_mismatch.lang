@@ -1,0 +1,4 @@
+# should have type mismatch b/c 'func a' should be a func, not an int
+# contradictaory signature vs declaration
+func a = func(int b) -> int {ret b;};
+print a(1);

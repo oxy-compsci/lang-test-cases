@@ -1,0 +1,3 @@
+# troll moment, we expect div by zero error instead of type mismatch
+func a = func(b) -> func {ret b/0;};
+func c = a(7);

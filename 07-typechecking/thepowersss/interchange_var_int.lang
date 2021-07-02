@@ -1,0 +1,7 @@
+# interchanging between var and int
+var a = 0;
+int b = 2;
+a = b; # var = int
+var c = 1;
+int d = 3;
+d = c; # int = var

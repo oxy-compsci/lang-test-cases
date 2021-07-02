@@ -1,0 +1,1 @@
+(sequence (declare a 0) (declare int b 2) (assign (lookup a) (lookup b)) (declare c 1) (declare int d 3) (assign (lookup d) (lookup c)))

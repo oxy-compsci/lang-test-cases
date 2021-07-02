@@ -1,0 +1,3 @@
+# type error test when assigning
+func a = func() {};
+int b = a;

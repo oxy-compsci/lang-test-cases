@@ -1,0 +1,3 @@
+# type error when returning from function
+func a = func(int b) -> func {ret b;};
+a(3);
