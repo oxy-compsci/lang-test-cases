@@ -1,1 +1,1 @@
-(sequence (declare a 0) (declare int b 2) (assign (lookup a) (lookup b)) (declare c 1) (declare int d 3) (assign (lookup d) (lookup c)))
+(sequence (declare a 0) (declare int b 2) (assign (varloc a) (lookup b)) (declare c 1) (declare int d 3) (assign (varloc d) (lookup c)))
