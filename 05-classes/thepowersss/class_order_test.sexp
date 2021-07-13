@@ -1,0 +1,1 @@
+(sequence (declare a (class (declare main (function (parameters this) (sequence (declare c 5) (assign (varloc a) (lookup c)) (print (lookup a))))) (declare a 1))) (call (member (call (lookup a) (arguments)) main) (arguments)) (print (member (call (lookup a) (arguments)) a)))

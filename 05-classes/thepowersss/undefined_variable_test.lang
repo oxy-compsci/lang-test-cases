@@ -1,0 +1,6 @@
+# things inside a class are in a different environment
+var x = 1;
+var z = class {
+    var y = x;
+};
+print y;

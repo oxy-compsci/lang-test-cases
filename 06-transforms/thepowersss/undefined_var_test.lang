@@ -1,0 +1,3 @@
+# n is not defined, but should that matter
+print n - 10 - n;
+# answer: yes apparently

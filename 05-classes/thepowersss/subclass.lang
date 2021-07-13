@@ -1,0 +1,10 @@
+# a class within a class
+# testing access .
+var a = class {
+    var c = 0;
+    var b = class {
+        var c = 1;
+    };
+};
+print a().c;
+print a().b().c;

@@ -1,0 +1,1 @@
+(sequence (declare a (function (parameters a) (sequence (return (- (+ (lookup a) 2) 4))))))

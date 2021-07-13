@@ -1,0 +1,1 @@
+(sequence (declare x 1) (declare z (class (declare y (lookup x)))) (print (lookup y)))

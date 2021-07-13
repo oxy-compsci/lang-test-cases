@@ -1,0 +1,2 @@
+# test all 4 basic arithmetic operations
+print 1 + 2 * 3 / 2;

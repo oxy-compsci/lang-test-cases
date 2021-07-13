@@ -1,0 +1,18 @@
+# add integers using an integer class
+# also tests if your class is non static
+
+var integer = class {
+    var val = 0;
+    var add = func(this, other) {
+        this.val = this.val + other.val;
+    };
+};
+var a = integer();
+var b = integer();
+a.val = 3;
+b.val = 2;
+print a.val;
+print b.val;
+a.add(b);
+print a.val;
+print b.val;

@@ -1,0 +1,1 @@
+(sequence (declare a (- 0 (- (- 1 5) 2))) (declare b (- 0 (* 1 (- (- 1 5) 2)))))

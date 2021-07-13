@@ -1,0 +1,6 @@
+# checking for distributed negatives and simplifying division on ints
+var a = 2;
+print (a - 6) + 2;
+print a - (6 + 2);
+print (a / 6) - 2;
+print a - (6 / 2);

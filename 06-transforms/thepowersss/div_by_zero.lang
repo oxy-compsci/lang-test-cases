@@ -1,0 +1,2 @@
+# even though var a is never called, it is still evaluated
+var a = 2 / (10 * 0);

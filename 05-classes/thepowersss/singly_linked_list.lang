@@ -1,0 +1,19 @@
+# creating a simple linked list
+# making sure that references to instances work
+var linkedList = class {
+    var value = 0;
+    var next = 0;
+    var append = func(this, nextList) {
+        this.next = nextList;
+    };
+};
+var a = linkedList();
+a.value = 1;
+var b = linkedList();
+b.value = 2;
+var c = linkedList();
+a.append(b);
+b.append(c);
+print a.value;
+print a.next.value;
+print a.next.next.value;

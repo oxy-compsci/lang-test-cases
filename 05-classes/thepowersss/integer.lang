@@ -1,0 +1,30 @@
+# just for fun...
+# also this is very meta
+var Integer = func () {
+    ret class {
+        var val = 0;
+        var add = func (this, other) {
+            ret this.val + other.val;
+        };
+        var sub = func (this, other) {
+            ret this.val - other.val;
+        };
+        var mul = func (this, other) {
+            ret this.val * other.val;
+        };
+        var div = func (this, other) {
+            ret this.val / other.val;
+        };
+        var create = func (this, value) {
+            this.val = value;
+            ret this;
+        };
+    };
+};
+
+var a = Integer()().create(3);
+var b = Integer()().create(6);
+print a.add(b);
+print a.sub(b);
+print a.mul(b);
+print b.div(a);
